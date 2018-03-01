@@ -1,0 +1,202 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+
+{% block title %} Facture {% endblock %}
+
+{% block sidebar %}{% endblock %}
+
+{% block extrahead %}{{ block.super }}
+    <script type="text/javascript" src="{% static 'admin/jquery.js' %}" />
+    <script type="text/javascript" src="{% url 'admin:jsi18n' %}"></script>
+    <script type="text/javascript" src="{% static 'admin/main.js' %}"></script> 
+    {{ media }}
+{% endblock %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/forms.css" %}" />{% endblock %}
+
+{% block coltype %}colM{% endblock %}
+
+{% load multiplicate %}
+
+
+{% block content %}
+
+
+<div class="preinvoice">
+  <table>
+    <caption> 
+        <h1>Les Produits</h1> 
+        <!-- <button class="button" onclick="onChecked()">Ajouter la categorie</button> -->
+     </caption>
+      <thead>
+          <tr>
+            <th>Option</th>
+            <th>Product</th>
+            <th>Quantite</th>
+            <th>Price</th>
+            <th>Montant</th>
+            <th>Remise % </th>
+            <th>Marge % </th>
+          </tr>
+      </thead>
+      <tbody class="addCategories">
+            {% for besoin in besoin_list %}
+                
+                <tr>
+                    <td> <input type="checkbox" name="{{besoin.product}}" id="{{besoin.id}}">  </td>
+                    <td>   {{besoin.product}}  </td>
+                    <td>   {{besoin.quantity}}  </td>
+                    <td>   {{besoin.price}}  F </td>
+                    <td>   {{besoin.quantity|multiple:besoin.price }}  F </td>
+                    <td>   {{besoin.remise}}  </td>
+                    <td>   {{besoin.marge}}  </td>
+                </tr>
+                
+            {% endfor %}
+        </tbody>
+</table>
+
+
+<div class="categoriespanel">
+   <h1>Selection</h1>
+  <table>
+      <thead>
+          <tr>
+              <th>Option</th>
+              <th>Produit</th>
+              <th>Groupe</th>
+          </tr>
+      </thead>
+      <tbody id="addProductToCategoriesPanel">
+
+      </tbody>
+  </table>
+</div>
+
+
+
+<br>
+
+<table>
+    <caption> <h1>Les Outils</h1></caption>
+      <thead>
+          <tr>
+            <th>Option</th>
+            <th>Outil</th>
+            <th>Valeur</th>
+            <th>Quantite</th>
+            <th>Montant</th>
+          </tr>
+      </thead>
+  {% for tool in outils %}
+    
+      <tr>
+          <td>   <input type="checkbox" name="{{tool.outil}}" id="{{tool.id}}">  </td>
+          <td>   {{tool.outil }}  </td>
+          <td>   {{tool.valeur}}  </td>
+          <td>   {{tool.quantite}}  </td>
+          <td>   {{tool.montant }}  F </td>
+      </tr>
+    
+  {% endfor %}
+</table>
+
+<br>
+
+<table>
+    <caption> <h1>La Main d'oeuvre</h1></caption>
+      <thead>
+          <tr>
+            <th>Option</th>
+            <th>Profession</th>
+            <th>Specialité</th>
+            <th>Cout horaire</th>
+            <th>Coefficient %</th>
+            <th>Nombre d'heure</th>
+            <th>Nombre de personne</th>
+            <th>Montant</th>
+          </tr>
+      </thead>
+        <tbody>
+
+            {% for oeuvre in mainoeuvre %}
+        
+                <tr>
+                    <td>  
+                         <!-- <input type="checkbox" name="{{oeuvre.mainoeuvre}}" id="{{oeuvre.id}}">  -->
+                    </td>
+                    <td>   {{oeuvre.mainoeuvre }}  </td>
+                    <td>   {{oeuvre.mainoeuvre.qualification}}  </td>
+                    <td>   {{oeuvre.tauxhoraire}}  </td>
+                    <td>   {{oeuvre.coefficient}}  </td>
+                    <td>   {{oeuvre.nombreheure}}  </td>
+                    <td>   {{oeuvre.nombrepersonnes}}  </td>
+                    <td>   {{oeuvre.montant}}  </td>
+                </tr>
+            
+            {% endfor %}
+      </tbody>
+</table>
+<br>
+
+  <table>
+      <caption><h1>Structure</h1></caption>
+      <thead>
+          <tr>
+              <th>Compact</th>
+              <th>Non Compact</th>
+          </tr>
+      </thead>
+      <tbody>
+            <tr>
+                <td><input type="checkbox" name="compact" ></td>
+                <td><input type="checkbox" name="nocompact" ></td>
+            </tr>
+      </tbody>
+     
+  </table>
+  <!-- <button class="button" onclick="onChecked()">Ajouter la categorie</button> -->
+<br>
+
+<table>
+    <caption> <h1>Le Transport</h1></caption>
+      <thead>
+          <tr>
+            <th>Option</th>
+            <th>Moyen</th>
+            <th>Ville</th>
+            <th>Distance</th>
+            <th>Cout au KM %</th>
+            <th>Coefficient</th>
+            <th>Montant</th>
+          </tr>
+      </thead>
+  {% for trans in transports %}
+    
+      <tr class="messagelist">
+          <td>  
+               <!-- <input type="checkbox" name="checked" id="">  -->
+            </td>
+          <td>   {{trans.transport }}  </td>
+          <td>   {{trans.project.ville}}  </td>
+          <td>   {{trans.distance}}  </td>
+          <td>   {{trans.coutkm}}  </td>
+          <td>   {{trans.coefficient}}  </td>
+          <td>   {{trans.montant}}  </td>
+      </tr>
+    
+  {% endfor %}
+</table>
+</div>
+<br>
+<br>
+<br>
+<input type="hidden" name="projectid" id="projectid" value="{{project}}">
+<div >
+  <button class="button" onclick="validate()"> Valider</button>
+</div>
+
+
+{% endblock %}
+
