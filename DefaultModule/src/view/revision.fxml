@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="189.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RevisionController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="241.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="validate" layoutX="398.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="152.0" text="Valider" />
+            <ComboBox fx:id="projectlist" layoutX="59.0" layoutY="93.0" prefHeight="25.0" prefWidth="301.0" promptText="Liste des projets" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

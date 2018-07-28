@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="121.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ChoixBoxController">
+   <children>
+      <Button fx:id="devis_simple" layoutX="135.0" layoutY="48.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" text="Devis Simple" />
+      <Button fx:id="devis_projet" layoutX="416.0" layoutY="48.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" text="Devis projet" />
+   </children>
+</AnchorPane>

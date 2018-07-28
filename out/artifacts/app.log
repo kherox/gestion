@@ -1,0 +1,9 @@
+2017-11-29 15:32:13,169 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:32:13 GMT 2017 
+2017-11-29 15:32:14,012 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:32:14 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:32:14,049 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:32:14 GMT 2017 
+2017-11-29 15:32:21,323 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 15:32:21 GMT 2017 
+2017-11-29 15:40:23,615 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:40:23 GMT 2017 
+2017-11-29 15:40:24,406 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:40:24 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:40:24,441 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:40:24 GMT 2017 
+2017-11-29 15:40:31,624 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Wed Nov 29 15:40:31 GMT 2017 
+2017-11-29 15:40:38,620 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 15:40:38 GMT 2017 

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainDevisController">
+  <children>
+    <!--<MenuBar VBox.vgrow="NEVER">-->
+      <!--<menus>-->
+        <!--<Menu mnemonicParsing="false" text="File">-->
+          <!--<items>-->
+            <!--<MenuItem mnemonicParsing="false" text="New" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Open…" />-->
+            <!--<Menu mnemonicParsing="false" text="Open Recent" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Close" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Save" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Save As…" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Revert" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Preferences…" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Quit" />-->
+          <!--</items>-->
+        <!--</Menu>-->
+        <!--<Menu mnemonicParsing="false" text="Edit">-->
+          <!--<items>-->
+            <!--<MenuItem mnemonicParsing="false" text="Undo" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Redo" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Cut" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Copy" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Paste" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Delete" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Select All" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Unselect All" />-->
+          <!--</items>-->
+        <!--</Menu>-->
+        <!--<Menu mnemonicParsing="false" text="Help">-->
+          <!--<items>-->
+            <!--<MenuItem mnemonicParsing="false" text="About MyHelloApp" />-->
+          <!--</items>-->
+        <!--</Menu>-->
+      <!--</menus>-->
+    <!--</MenuBar>-->
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <SplitPane dividerPositions="0.2962382445141066" layoutX="194.0" layoutY="126.0" prefHeight="375.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <TableView fx:id="productsTableView" editable="true" layoutX="-7.0" layoutY="41.0" prefHeight="373.0" prefWidth="186.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columns>
+                            <TableColumn fx:id="ref" prefWidth="75.0" text="Reference" />
+                            <TableColumn fx:id="desig" prefWidth="75.0" text="Designation" />
+                              <TableColumn fx:id="qte" prefWidth="75.0" text="Quantite" />
+                              <TableColumn fx:id="prix" prefWidth="75.0" text="Prix U" />
+                              <TableColumn fx:id="remise" prefWidth="75.0" text="Remise" />
+                              <TableColumn fx:id="montantHt" prefWidth="75.0" text="Prix Net" />
+                              <TableColumn fx:id="marge" prefWidth="75.0" text="marge" visible="false" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <SplitPane dividerPositions="0.503006012024048" layoutX="-55.0" layoutY="27.0" prefHeight="373.0" prefWidth="434.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-55.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <Button fx:id="generate" layoutX="85.0" layoutY="315.0" mnemonicParsing="false" text="Previsualiser" />
+                                    <Button fx:id="delete" layoutX="176.0" layoutY="315.0" mnemonicParsing="false" text="Supprimer" />
+                                    <Label layoutX="85.0" layoutY="38.0" text="Client" />
+                                    <Label fx:id="projectclient" layoutX="184.0" layoutY="38.0" text="Label" />
+                                    <Label layoutX="82.0" layoutY="85.0" text="Nom du projet" />
+                                    <Label fx:id="projectname" layoutX="198.0" layoutY="85.0" text="Label" />
+                                    <Label layoutX="82.0" layoutY="129.0" text="Representant" />
+                                    <Label fx:id="projectrepresentant" layoutX="198.0" layoutY="129.0" text="Label" />
+                                    <Label layoutX="82.0" layoutY="177.0" text="Contact" />
+                                    <Label fx:id="projectclientcontact" layoutX="192.0" layoutY="177.0" text="Label" />
+                                    <Label layoutX="82.0" layoutY="225.0" text="Ville" />
+                                    <Label fx:id="projectville" layoutX="198.0" layoutY="225.0" text="Label" />
+                                    <Label layoutX="82.0" layoutY="275.0" text="Description" />
+                                    <Label fx:id="projectdescription" layoutX="198.0" layoutY="275.0" text="Label" />
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <DatePicker fx:id="demande_date" layoutX="169.0" layoutY="107.0" />
+                                    <DatePicker fx:id="date_livraison" layoutX="172.0" layoutY="153.0" />
+                                    <Label layoutX="14.0" layoutY="114.0" text="Date de demande" />
+                                    <Label layoutX="14.0" layoutY="155.0" text="Date de debut" />
+                                    <Label layoutX="14.0" layoutY="80.0" text="Date Actuelle" />
+                                    <Label fx:id="datecurent" layoutX="164.0" layoutY="80.0" prefHeight="17.0" prefWidth="160.0" text="Label" />
+                                    <Label layoutX="14.0" layoutY="210.0" text="Avance" />
+                                    <TextField fx:id="avance" layoutX="173.0" layoutY="206.0" />
+                                    <Label layoutX="14.0" layoutY="31.0" text="Numero Proforma" />
+                                    <Label fx:id="proforma" layoutX="169.0" layoutY="31.0" text="Label" />
+                                    <Label fx:id="d1" layoutX="183.0" layoutY="111.0" text="Label" />
+                                    <Label fx:id="d2" layoutX="183.0" layoutY="157.0" text="Label" />
+                                    <Label layoutX="14.0" layoutY="269.0" text="Nombre de jour" />
+                                    <TextField fx:id="nombrejour" layoutX="171.0" layoutY="257.0" />
+                                    <Label layoutX="20.0" layoutY="317.0" prefHeight="17.0" prefWidth="79.0" text="Destinataire" />
+                                    <TextField fx:id="destinataire" layoutX="170.0" layoutY="305.0" />
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

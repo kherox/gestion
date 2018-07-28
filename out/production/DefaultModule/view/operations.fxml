@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.OperationsController">
+   <children>
+      <TableView fx:id="operationTableView" layoutX="126.0" layoutY="56.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="code" prefWidth="75.0" text="Numero" />
+          <TableColumn fx:id="name" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="created" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="client" prefWidth="75.0" text="Clients" />
+            <TableColumn fx:id="operatorname" prefWidth="75.0" text="Responsable" />
+            <TableColumn fx:id="id" prefWidth="75.0" text="id" visible="false" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

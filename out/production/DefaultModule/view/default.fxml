@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DefaultController">
+  <children>
+    <MenuBar fx:id="primaryMenu" VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Devis">
+          <items>
+                  <MenuItem mnemonicParsing="false" text="Creer un devis">
+                           <!--<accelerator>-->
+                              <!--<KeyCodeCombination alt="UP" code="D" control="DOWN" meta="UP" shift="UP" shortcut="UP" />-->
+                           <!--</accelerator>-->
+                  </MenuItem>
+              <MenuItem mnemonicParsing="false" text="Revision">
+                  <!--<accelerator>-->
+                      <!--<KeyCodeCombination alt="UP" code="R" control="DOWN" meta="UP" shift="UP" shortcut="UP" />-->
+                  <!--</accelerator>-->
+              </MenuItem>
+               
+              <!-- <MenuItem mnemonicParsing="false" text="Liste des Devis">
+                 <accelerator>
+                    <KeyCodeCombination alt="UP" code="F" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                 </accelerator>
+              </MenuItem> -->
+
+          </items>
+        </Menu>
+          <Menu mnemonicParsing="false" text="Projets ">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="Creer un projet" />
+                  <!-- <MenuItem mnemonicParsing="false" text="Projet en cours" /> -->
+                  <MenuItem mnemonicParsing="false" text="Besoin du projet" />
+                  <MenuItem mnemonicParsing="false" text="Mise à jour des prix" />
+                  <MenuItem mnemonicParsing="false" text="Main d'oeuvre" />
+                  <MenuItem mnemonicParsing="false" text="Outils &amp; Equipement" />
+                  <MenuItem mnemonicParsing="false" text="Transport" />
+                  <MenuItem mnemonicParsing="false" text="Elaborer l'offre" />
+                  <!-- <MenuItem mnemonicParsing="false" text="Transport" /> -->
+                 <!--  <MenuItem mnemonicParsing="false" text="Elaborer le devis" /> -->
+              </items>
+          </Menu>
+        
+            <Menu mnemonicParsing="false" text="Produits">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Creer un article" />
+                    
+            
+               </items>
+            </Menu>
+
+          <!--<Menu fx:id="categories" mnemonicParsing="false" text="Categorisation">-->
+              <!--<items>-->
+                  <!--<MenuItem mnemonicParsing="false" text="Activité client" />-->
+                  <!--<MenuItem mnemonicParsing="false" text="Categorie client" />-->
+
+                  <!--&lt;!&ndash; -->
+                  <!--<MenuItem mnemonicParsing="false" text="Pool d'activité" />-->
+                  <!--<MenuItem mnemonicParsing="false" text="Cout horaire" /> -->
+                  <!--<MenuItem mnemonicParsing="false" text="Liste des categories" />-->
+                  <!--<MenuItem mnemonicParsing="false" text="Cout Transports" />-->
+                <!--&ndash;&gt;-->
+                  <!--<MenuItem mnemonicParsing="false" text="Cout equipements &amp; Outils" />-->
+                  <!---->
+              <!--</items>-->
+          <!--</Menu>-->
+        <Menu fx:id="client" mnemonicParsing="false" text="Clients">
+          <items>
+                  <MenuItem mnemonicParsing="false" text="Clients">
+                     <!--<accelerator>-->
+                        <!--<KeyCodeCombination alt="DOWN" code="N" control="UP" meta="UP" shift="UP" shortcut="UP" />-->
+                     <!--</accelerator>-->
+                  </MenuItem>
+              <MenuItem mnemonicParsing="false" text="Domaine d'activité" />
+          </items>
+        </Menu>
+            <Menu mnemonicParsing="false" text="Liste">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Liste des devis">
+                     <!--<accelerator>-->
+                        <!--<KeyCodeCombination alt="UP" code="Y" control="DOWN" meta="UP" shift="UP" shortcut="UP" />-->
+                     <!--</accelerator>-->
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" text="Liste des Clients">
+                     <!--<accelerator>-->
+                        <!--<KeyCodeCombination alt="UP" code="Y" control="DOWN" meta="UP" shift="UP" shortcut="UP" />-->
+                     <!--</accelerator>-->
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" text="Liste des revisions">
+                     <!--<accelerator>-->
+                        <!--<KeyCodeCombination alt="UP" code="Y" control="DOWN" meta="UP" shift="UP" shortcut="UP" />-->
+                     <!--</accelerator>-->
+                  </MenuItem>
+                   <MenuItem mnemonicParsing="false" text="Liste des activités" />
+                  <!--<MenuItem mnemonicParsing="false" text="Liste des categories">-->
+                     <!--<accelerator>-->
+                        <!--<KeyCodeCombination alt="UP" code="Y" control="DOWN" meta="UP" shift="UP" shortcut="UP" />-->
+                     <!--</accelerator>-->
+                  <!--</MenuItem>-->
+                  <MenuItem mnemonicParsing="false" text="Liste des projets">
+                     <!--<accelerator>-->
+                        <!--<KeyCodeCombination alt="UP" code="Y" control="DOWN" meta="UP" shift="UP" shortcut="UP" />-->
+                     <!--</accelerator>-->
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" text="Listes des articles">
+                     <!--<accelerator>-->
+                        <!--<KeyCodeCombination alt="UP" code="U" control="DOWN" meta="UP" shift="UP" shortcut="UP" />-->
+                     <!--</accelerator>-->
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" text="Liste des utilisateurs" />
+
+               </items>
+            </Menu>
+
+            <Menu mnemonicParsing="false" text="Options">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Aide du logiciel" />
+                  <MenuItem mnemonicParsing="false" text="A propos" />
+                  <MenuItem mnemonicParsing="false" text="Deconnexion" />
+                  <MenuItem mnemonicParsing="false" text="Quitter" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Profile" visible="false">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Mon compte" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" fx:id="user" text="Administrateur" >
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Activités 2IP" />
+                  <MenuItem mnemonicParsing="false" text="Utilisateurs" />
+                  <MenuItem mnemonicParsing="false" text="Coût equipement" />
+                  <MenuItem mnemonicParsing="false" text="Coût MO" />
+                  <MenuItem mnemonicParsing="false" text="Coût transport" />
+               </items>
+            </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <BorderPane layoutX="81.0" layoutY="88.0" prefHeight="375.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <center>
+                  <ImageView fx:id="imageView" fitHeight="286.0" fitWidth="551.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+               </center>
+               <bottom>
+                  <Label prefHeight="40.0" prefWidth="353.0" text="Notre Savoir Faire à votre Service" textFill="#076815" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" />
+                     </padding>
+                  </Label>
+               </bottom>
+            </BorderPane>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

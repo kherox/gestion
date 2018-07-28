@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.PreodreTravailController">
+   <children>
+      <ComboBox fx:id="projectList" layoutX="38.0" layoutY="68.0" prefHeight="25.0" prefWidth="213.0" promptText="Liste des projets" />
+      <Button fx:id="validate" layoutX="498.0" layoutY="68.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" text="Valider" />
+      <TextField fx:id="client_bon" layoutX="292.0" layoutY="68.0" prefHeight="25.0" prefWidth="181.0" promptText="Entrer le numero de bon client" />
+   </children>
+</AnchorPane>

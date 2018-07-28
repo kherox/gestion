@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_defaultmodule" default="compile.module.defaultmodule">
+  <dirname property="module.defaultmodule.basedir" file="${ant.file.module_defaultmodule}"/>
+  
+  <property name="module.jdk.home.defaultmodule" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.defaultmodule" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.defaultmodule" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.defaultmodule" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="defaultmodule.output.dir" value="${module.defaultmodule.basedir}/../out/production/DefaultModule"/>
+  <property name="defaultmodule.testoutput.dir" value="${module.defaultmodule.basedir}/../out/test/DefaultModule"/>
+  
+  <path id="defaultmodule.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="defaultmodule.module.production.classpath">
+    <path refid="${module.jdk.classpath.defaultmodule}"/>
+    <path refid="library.maven:_org.apache.poi:poi:3.14.classpath"/>
+    <path refid="library.maven:_org.mongodb:mongo-java-driver:3.2.2.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml:3.14.classpath"/>
+    <path refid="library.maven:_org.apache.xmlbeans:xmlbeans:2.6.0.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml-schemas:3.14.classpath"/>
+    <path refid="library.maven:_com.rethinkdb:rethinkdb-driver:2.3.3.classpath"/>
+    <path refid="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.20.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.10.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_org.apache.pdfbox:fontbox:2.0.2.classpath"/>
+    <path refid="library.maven:_org.apache.xmlgraphics:fop:2.1.classpath"/>
+    <path refid="library.maven:_commons-io:commons-io:1.3.1.classpath"/>
+  </path>
+  
+  <path id="defaultmodule.runtime.production.module.classpath">
+    <pathelement location="${defaultmodule.output.dir}"/>
+    <path refid="library.maven:_org.apache.poi:poi:3.14.classpath"/>
+    <path refid="library.maven:_org.mongodb:mongo-java-driver:3.2.2.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml:3.14.classpath"/>
+    <path refid="library.maven:_org.apache.xmlbeans:xmlbeans:2.6.0.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml-schemas:3.14.classpath"/>
+    <path refid="library.maven:_com.rethinkdb:rethinkdb-driver:2.3.3.classpath"/>
+    <path refid="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.20.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.10.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_org.apache.pdfbox:fontbox:2.0.2.classpath"/>
+    <path refid="library.maven:_org.apache.xmlgraphics:fop:2.1.classpath"/>
+    <path refid="library.maven:_commons-io:commons-io:1.3.1.classpath"/>
+  </path>
+  
+  <path id="defaultmodule.module.classpath">
+    <path refid="${module.jdk.classpath.defaultmodule}"/>
+    <pathelement location="${defaultmodule.output.dir}"/>
+    <path refid="library.maven:_org.apache.poi:poi:3.14.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml:3.14.classpath"/>
+    <path refid="library.maven:_org.apache.xmlbeans:xmlbeans:2.6.0.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml-schemas:3.14.classpath"/>
+    <path refid="library.maven:_com.rethinkdb:rethinkdb-driver:2.3.3.classpath"/>
+    <path refid="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.20.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.10.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_org.apache.pdfbox:fontbox:2.0.2.classpath"/>
+    <path refid="library.maven:_org.apache.xmlgraphics:fop:2.1.classpath"/>
+    <path refid="library.maven:_commons-io:commons-io:1.3.1.classpath"/>
+    <path refid="library.maven:_com.itextpdf:kernel:7.0.5.classpath"/>
+    <path refid="library.maven:_com.itextpdf:layout:7.0.5.classpath"/>
+    <path refid="library.maven:_com.itextpdf:io:7.0.5.classpath"/>
+  </path>
+
+  <path id="defaultmodule.runtime.module.classpath">
+    <pathelement location="${defaultmodule.testoutput.dir}"/>
+    <pathelement location="${defaultmodule.output.dir}"/>
+    <path refid="library.maven:_org.apache.poi:poi:3.14.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml:3.14.classpath"/>
+    <path refid="library.maven:_org.apache.xmlbeans:xmlbeans:2.6.0.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml-schemas:3.14.classpath"/>
+    <path refid="library.maven:_com.rethinkdb:rethinkdb-driver:2.3.3.classpath"/>
+    <path refid="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.20.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.10.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_org.apache.pdfbox:fontbox:2.0.2.classpath"/>
+    <path refid="library.maven:_org.apache.xmlgraphics:fop:2.1.classpath"/>
+    <path refid="library.maven:_commons-io:commons-io:1.3.1.classpath"/>
+    <path refid="library.maven:_com.itextpdf:kernel:7.0.5.classpath"/>
+    <path refid="library.maven:_com.itextpdf:layout:7.0.5.classpath"/>
+    <path refid="library.maven:_com.itextpdf:io:7.0.5.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.defaultmodule">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.defaultmodule">
+    <patternset refid="excluded.from.module.defaultmodule"/>
+  </patternset>
+  
+  <path id="defaultmodule.module.sourcepath">
+    <dirset dir="${module.defaultmodule.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.defaultmodule" depends="compile.module.defaultmodule.production,compile.module.defaultmodule.tests" description="Compile module DefaultModule"/>
+  
+  <target name="compile.module.defaultmodule.production" depends="register.custom.compilers" description="Compile module DefaultModule; production classes">
+    <mkdir dir="${defaultmodule.output.dir}"/>
+    <javac2 destdir="${defaultmodule.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.defaultmodule}/javac">
+      <compilerarg line="${compiler.args.defaultmodule}"/>
+      <bootclasspath refid="defaultmodule.module.bootclasspath"/>
+      <classpath refid="defaultmodule.module.production.classpath"/>
+      <src refid="defaultmodule.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.defaultmodule"/>
+    </javac2>
+    
+    <copy todir="${defaultmodule.output.dir}">
+      <fileset dir="${module.defaultmodule.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.defaultmodule.tests" depends="register.custom.compilers,compile.module.defaultmodule.production" description="compile module DefaultModule; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.defaultmodule" description="cleanup module">
+    <delete dir="${defaultmodule.output.dir}"/>
+    <delete dir="${defaultmodule.testoutput.dir}"/>
+  </target>
+</project>

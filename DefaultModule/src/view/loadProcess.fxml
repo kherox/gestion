@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.loadProcessController">
+   <children>
+      <Button fx:id="btnValidate" layoutX="286.0" layoutY="291.0" mnemonicParsing="false" onAction="#handlerLoadProjetInfomation" prefHeight="25.0" prefWidth="125.0" text="Valider" />
+      <Label fx:id="label" layoutX="50.0" layoutY="192.0" text="Selectionner le projet" />
+      <Label layoutX="236.0" layoutY="42.0" text="Continuer un process">
+         <font>
+            <Font name="Andalus" size="22.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="projetList" layoutX="262.0" layoutY="188.0" prefWidth="150.0" promptText="Projet en cours" />
+      <ProgressBar fx:id="progressBar" layoutX="219.0" layoutY="191.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,1671 @@
+2017-10-09 15:47:21,975 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Oct 09 15:47:21 GMT 2017 
+2017-10-09 15:48:45,412 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Oct 09 15:48:45 GMT 2017 database.ConnectionManager 
+2017-10-09 15:53:35,561 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Oct 09 15:53:35 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-09 15:56:43,213 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Oct 09 15:56:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-09 15:57:54,040 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Oct 09 15:57:54 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-09 16:03:10,041 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Oct 09 16:03:10 GMT 2017 
+2017-10-09 16:03:11,016 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Oct 09 16:03:11 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-18 08:57:20,271 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 18 08:57:20 GMT 2017 
+2017-10-18 08:57:23,191 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 18 08:57:23 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-18 09:00:01,908 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 18 09:00:01 GMT 2017 
+2017-10-18 09:06:11,914 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 18 09:06:11 GMT 2017 
+2017-10-18 09:06:13,720 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 18 09:06:13 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-18 09:06:28,292 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 18 09:06:28 GMT 2017 
+2017-10-18 09:12:19,148 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 18 09:12:19 GMT 2017 
+2017-10-18 09:12:20,679 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 18 09:12:20 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-18 09:12:34,844 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 18 09:12:34 GMT 2017 
+2017-10-18 10:25:47,452 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Oct 18 10:25:47 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:108)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-10-18 11:14:55,832 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 18 11:14:55 GMT 2017 
+2017-10-18 11:14:56,988 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 18 11:14:56 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-18 11:15:02,893 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 18 11:15:02 GMT 2017 
+2017-10-18 11:15:14,310 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected user2 Wed Oct 18 11:15:14 GMT 2017 
+2017-10-18 11:16:51,229 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 18 11:16:51 GMT 2017 
+2017-10-18 11:16:52,465 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 18 11:16:52 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-18 11:17:20,819 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected user2 Wed Oct 18 11:17:20 GMT 2017 
+2017-10-18 11:20:27,809 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Oct 18 11:20:27 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-10-18 11:33:04,451 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 18 11:33:04 GMT 2017 
+2017-10-18 11:33:05,759 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 18 11:33:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-18 11:33:16,847 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected user2 Wed Oct 18 11:33:16 GMT 2017 
+2017-10-18 11:47:17,973 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 18 11:47:17 GMT 2017 
+2017-10-18 11:47:19,153 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 18 11:47:19 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-18 13:03:43,806 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 18 13:03:43 GMT 2017 
+2017-10-19 14:46:32,796 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Thu Oct 19 14:46:32 GMT 2017 
+2017-10-19 14:46:35,554 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Thu Oct 19 14:46:35 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-19 14:50:42,706 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Thu Oct 19 14:50:42 GMT 2017 
+2017-10-19 15:00:49,540 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Thu Oct 19 15:00:49 GMT 2017 
+2017-10-19 15:00:50,697 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Thu Oct 19 15:00:50 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-19 15:00:54,541 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Thu Oct 19 15:00:54 GMT 2017 
+2017-10-19 15:01:00,180 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Thu Oct 19 15:01:00 GMT 2017 
+2017-10-19 15:06:40,836 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Thu Oct 19 15:06:40 GMT 2017 
+2017-10-19 15:06:42,015 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Thu Oct 19 15:06:42 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-19 15:07:23,126 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Thu Oct 19 15:07:23 GMT 2017 
+2017-10-24 10:43:25,703 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Tue Oct 24 10:43:25 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-10-24 10:43:47,209 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Tue Oct 24 10:43:47 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-10-24 10:44:38,172 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 10:44:38 GMT 2017 
+2017-10-24 10:44:39,906 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 10:44:39 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 10:44:40,168 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 10:44:40 GMT 2017 
+2017-10-24 10:44:57,838 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 10:44:57 GMT 2017 
+2017-10-24 10:50:18,636 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 10:50:18 GMT 2017 
+2017-10-24 10:50:19,735 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 10:50:19 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 10:50:19,778 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 10:50:19 GMT 2017 
+2017-10-24 10:50:26,127 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 10:50:26 GMT 2017 
+2017-10-24 10:52:14,064 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 10:52:14 GMT 2017 
+2017-10-24 10:52:15,165 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 10:52:15 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 10:52:15,210 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 10:52:15 GMT 2017 
+2017-10-24 10:52:19,233 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 10:52:19 GMT 2017 
+2017-10-24 11:04:32,871 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 11:04:32 GMT 2017 
+2017-10-24 11:04:34,039 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 11:04:34 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 11:04:34,108 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 11:04:34 GMT 2017 
+2017-10-24 11:04:38,668 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 11:04:38 GMT 2017 
+2017-10-24 11:51:39,421 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 11:51:39 GMT 2017 
+2017-10-24 11:51:40,631 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 11:51:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 11:51:40,678 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 11:51:40 GMT 2017 
+2017-10-24 11:52:39,230 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 11:52:39 GMT 2017 
+2017-10-24 11:52:40,162 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 11:52:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 11:52:40,210 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 11:52:40 GMT 2017 
+2017-10-24 11:53:49,403 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 11:53:49 GMT 2017 
+2017-10-24 11:53:50,377 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 11:53:50 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 11:53:50,421 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 11:53:50 GMT 2017 
+2017-10-24 11:56:13,358 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 11:56:13 GMT 2017 
+2017-10-24 11:56:14,585 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 11:56:14 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 11:56:14,627 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 11:56:14 GMT 2017 
+2017-10-24 11:58:52,716 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 11:58:52 GMT 2017 
+2017-10-24 12:00:13,369 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:00:13 GMT 2017 
+2017-10-24 12:00:14,651 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:00:14 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:00:14,720 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:00:14 GMT 2017 
+2017-10-24 12:00:20,656 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:00:20 GMT 2017 
+2017-10-24 12:02:11,371 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:02:11 GMT 2017 
+2017-10-24 12:02:12,275 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:02:12 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:02:12,320 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:02:12 GMT 2017 
+2017-10-24 12:02:17,185 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:02:17 GMT 2017 
+2017-10-24 12:06:39,518 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:06:39 GMT 2017 
+2017-10-24 12:06:40,851 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:06:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:06:40,904 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:06:40 GMT 2017 
+2017-10-24 12:07:12,900 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:07:12 GMT 2017 
+2017-10-24 12:07:13,938 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:07:13 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:07:13,987 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:07:13 GMT 2017 
+2017-10-24 12:07:58,347 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:07:58 GMT 2017 
+2017-10-24 12:07:59,842 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:07:59 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:07:59,965 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:07:59 GMT 2017 
+2017-10-24 12:08:06,316 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:08:06 GMT 2017 
+2017-10-24 12:08:50,524 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:08:50 GMT 2017 
+2017-10-24 12:08:51,798 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:08:51 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:08:51,839 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:08:51 GMT 2017 
+2017-10-24 12:08:55,743 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:08:55 GMT 2017 
+2017-10-24 12:12:16,419 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:12:16 GMT 2017 
+2017-10-24 12:12:17,345 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:12:17 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:12:17,381 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:12:17 GMT 2017 
+2017-10-24 12:13:04,376 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:13:04 GMT 2017 
+2017-10-24 12:14:27,350 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:14:27 GMT 2017 
+2017-10-24 12:14:28,456 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:14:28 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:14:28,496 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:14:28 GMT 2017 
+2017-10-24 12:14:37,085 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:14:37 GMT 2017 
+2017-10-24 12:15:34,590 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:15:34 GMT 2017 
+2017-10-24 12:15:35,538 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:15:35 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:15:35,580 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:15:35 GMT 2017 
+2017-10-24 12:15:56,363 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:15:56 GMT 2017 
+2017-10-24 12:15:57,367 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:15:57 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:15:57,409 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:15:57 GMT 2017 
+2017-10-24 12:16:01,622 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:16:01 GMT 2017 
+2017-10-24 12:19:00,264 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:19:00 GMT 2017 
+2017-10-24 12:19:01,389 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:19:01 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:19:01,461 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:19:01 GMT 2017 
+2017-10-24 12:19:05,952 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:19:05 GMT 2017 
+2017-10-24 12:29:58,131 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:29:58 GMT 2017 
+2017-10-24 12:29:59,328 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:29:59 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:29:59,379 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:29:59 GMT 2017 
+2017-10-24 12:30:03,550 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:30:03 GMT 2017 
+2017-10-24 12:31:24,233 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:31:24 GMT 2017 
+2017-10-24 12:31:25,205 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:31:25 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:31:25,244 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:31:25 GMT 2017 
+2017-10-24 12:31:29,156 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:31:29 GMT 2017 
+2017-10-24 12:36:42,382 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:36:42 GMT 2017 
+2017-10-24 12:36:43,421 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:36:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:36:43,464 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:36:43 GMT 2017 
+2017-10-24 12:36:47,769 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 12:36:47 GMT 2017 
+2017-10-24 12:48:42,507 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:48:42 GMT 2017 
+2017-10-24 12:48:43,422 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:48:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:48:43,459 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:48:43 GMT 2017 
+2017-10-24 12:51:03,001 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 12:51:02 GMT 2017 
+2017-10-24 12:51:04,195 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 12:51:04 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 12:51:04,247 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 12:51:04 GMT 2017 
+2017-10-24 13:13:14,833 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 13:13:14 GMT 2017 
+2017-10-24 13:22:28,935 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 13:22:28 GMT 2017 
+2017-10-24 13:22:30,096 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 13:22:30 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 13:22:30,150 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 13:22:30 GMT 2017 
+2017-10-24 13:22:37,260 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 13:22:37 GMT 2017 
+2017-10-24 13:22:56,933 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 13:22:56 GMT 2017 
+2017-10-24 13:22:58,133 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 13:22:58 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 13:22:58,192 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 13:22:58 GMT 2017 
+2017-10-24 13:23:14,956 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 13:23:14 GMT 2017 
+2017-10-24 13:31:43,106 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 13:31:43 GMT 2017 
+2017-10-24 13:31:44,664 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 13:31:44 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 13:31:44,708 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 13:31:44 GMT 2017 
+2017-10-24 13:31:49,904 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 13:31:49 GMT 2017 
+2017-10-24 13:31:58,321 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 13:31:58 GMT 2017 
+2017-10-24 13:32:04,482 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 13:32:04 GMT 2017 
+2017-10-24 13:32:05,559 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 13:32:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 13:32:05,601 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 13:32:05 GMT 2017 
+2017-10-24 13:32:12,035 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected user2 Tue Oct 24 13:32:12 GMT 2017 
+2017-10-24 13:33:38,288 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 13:33:38 GMT 2017 
+2017-10-24 13:33:39,349 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 13:33:39 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 13:33:39,397 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 13:33:39 GMT 2017 
+2017-10-24 13:33:44,893 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 13:33:44 GMT 2017 
+2017-10-24 13:40:44,446 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 13:40:44 GMT 2017 
+2017-10-24 13:40:45,477 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 13:40:45 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 13:40:45,526 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 13:40:45 GMT 2017 
+2017-10-24 13:40:58,794 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 13:40:58 GMT 2017 
+2017-10-24 13:45:00,298 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 13:45:00 GMT 2017 
+2017-10-24 13:45:01,779 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 13:45:01 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 13:45:01,829 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 13:45:01 GMT 2017 
+2017-10-24 13:45:06,196 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 13:45:06 GMT 2017 
+2017-10-24 14:11:34,304 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:11:34 GMT 2017 
+2017-10-24 14:11:35,542 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:11:35 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:11:35,599 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:11:35 GMT 2017 
+2017-10-24 14:11:42,178 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:11:42 GMT 2017 
+2017-10-24 14:14:06,457 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:14:06 GMT 2017 
+2017-10-24 14:14:07,536 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:14:07 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:14:07,588 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:14:07 GMT 2017 
+2017-10-24 14:14:48,763 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:14:48 GMT 2017 
+2017-10-24 14:22:41,349 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:22:41 GMT 2017 
+2017-10-24 14:22:42,446 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:22:42 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:22:42,502 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:22:42 GMT 2017 
+2017-10-24 14:22:47,544 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:22:47 GMT 2017 
+2017-10-24 14:26:46,136 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:26:46 GMT 2017 
+2017-10-24 14:26:47,468 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:26:47 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:26:47,533 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:26:47 GMT 2017 
+2017-10-24 14:26:51,986 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:26:51 GMT 2017 
+2017-10-24 14:32:40,278 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:32:40 GMT 2017 
+2017-10-24 14:32:41,505 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:32:41 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:32:41,579 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:32:41 GMT 2017 
+2017-10-24 14:33:47,863 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:33:47 GMT 2017 
+2017-10-24 14:37:01,330 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:37:01 GMT 2017 
+2017-10-24 14:37:02,566 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:37:02 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:37:02,608 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:37:02 GMT 2017 
+2017-10-24 14:37:08,367 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:37:08 GMT 2017 
+2017-10-24 14:39:16,712 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:39:16 GMT 2017 
+2017-10-24 14:39:17,687 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:39:17 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:39:17,730 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:39:17 GMT 2017 
+2017-10-24 14:39:25,288 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:39:25 GMT 2017 
+2017-10-24 14:43:47,749 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:43:47 GMT 2017 
+2017-10-24 14:43:48,747 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:43:48 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:43:48,797 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:43:48 GMT 2017 
+2017-10-24 14:43:53,313 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:43:53 GMT 2017 
+2017-10-24 14:48:37,108 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:48:37 GMT 2017 
+2017-10-24 14:48:38,450 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:48:38 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:48:38,500 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:48:38 GMT 2017 
+2017-10-24 14:48:43,685 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:48:43 GMT 2017 
+2017-10-24 14:50:39,812 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:50:39 GMT 2017 
+2017-10-24 14:50:41,037 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:50:41 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:50:41,093 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:50:41 GMT 2017 
+2017-10-24 14:50:45,924 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:50:45 GMT 2017 
+2017-10-24 14:54:10,167 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:54:10 GMT 2017 
+2017-10-24 14:54:11,374 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:54:11 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:54:11,426 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:54:11 GMT 2017 
+2017-10-24 14:54:18,981 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:54:18 GMT 2017 
+2017-10-24 14:59:04,222 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 14:59:04 GMT 2017 
+2017-10-24 14:59:05,301 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 14:59:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 14:59:05,361 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 14:59:05 GMT 2017 
+2017-10-24 14:59:12,465 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 14:59:12 GMT 2017 
+2017-10-24 15:00:40,028 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 15:00:40 GMT 2017 
+2017-10-24 15:00:40,923 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 15:00:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 15:00:40,966 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 15:00:40 GMT 2017 
+2017-10-24 15:00:45,539 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 15:00:45 GMT 2017 
+2017-10-24 15:02:56,480 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 15:02:56 GMT 2017 
+2017-10-24 15:02:57,399 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 15:02:57 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 15:02:57,435 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 15:02:57 GMT 2017 
+2017-10-24 15:04:24,306 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Tue Oct 24 15:04:24 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-10-24 15:18:57,626 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 24 15:18:57 GMT 2017 
+2017-10-24 15:18:59,082 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 24 15:18:59 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-24 15:18:59,184 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 24 15:18:59 GMT 2017 
+2017-10-24 15:19:08,141 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 24 15:19:08 GMT 2017 
+2017-10-25 14:03:57,381 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:03:57 GMT 2017 
+2017-10-25 14:03:58,715 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:03:58 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:03:58,778 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:03:58 GMT 2017 
+2017-10-25 14:04:03,429 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 25 14:04:03 GMT 2017 
+2017-10-25 14:04:53,599 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:04:53 GMT 2017 
+2017-10-25 14:04:54,497 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:04:54 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:04:54,539 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:04:54 GMT 2017 
+2017-10-25 14:04:58,356 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Wed Oct 25 14:04:58 GMT 2017 
+2017-10-25 14:05:04,042 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 25 14:05:04 GMT 2017 
+2017-10-25 14:06:25,972 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:06:25 GMT 2017 
+2017-10-25 14:06:26,858 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:06:26 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:06:26,898 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:06:26 GMT 2017 
+2017-10-25 14:06:31,173 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 25 14:06:31 GMT 2017 
+2017-10-25 14:14:41,740 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:14:41 GMT 2017 
+2017-10-25 14:14:42,887 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:14:42 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:14:42,938 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:14:42 GMT 2017 
+2017-10-25 14:14:46,962 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 25 14:14:46 GMT 2017 
+2017-10-25 14:15:18,494 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:15:18 GMT 2017 
+2017-10-25 14:15:19,609 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:15:19 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:15:19,687 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:15:19 GMT 2017 
+2017-10-25 14:15:24,312 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Wed Oct 25 14:15:24 GMT 2017 
+2017-10-25 14:16:42,853 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error demo Wed Oct 25 14:16:42 GMT 2017 
+2017-10-25 14:16:48,408 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:16:48 GMT 2017 
+2017-10-25 14:17:52,896 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:17:52 GMT 2017 
+2017-10-25 14:17:53,932 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:17:53 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:17:53,980 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:17:53 GMT 2017 
+2017-10-25 14:18:01,312 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:18:01 GMT 2017 
+2017-10-25 14:25:34,919 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:25:34 GMT 2017 
+2017-10-25 14:25:36,072 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:25:36 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:25:36,125 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:25:36 GMT 2017 
+2017-10-25 14:25:41,949 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:25:41 GMT 2017 
+2017-10-25 14:26:24,444 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:26:24 GMT 2017 
+2017-10-25 14:26:25,270 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:26:25 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:26:25,320 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:26:25 GMT 2017 
+2017-10-25 14:26:29,140 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:26:29 GMT 2017 
+2017-10-25 14:27:07,983 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:27:07 GMT 2017 
+2017-10-25 14:27:08,986 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:27:08 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:27:09,038 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:27:09 GMT 2017 
+2017-10-25 14:27:12,404 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:27:12 GMT 2017 
+2017-10-25 14:27:52,078 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:27:52 GMT 2017 
+2017-10-25 14:27:53,070 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:27:53 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:27:53,125 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:27:53 GMT 2017 
+2017-10-25 14:27:57,130 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:27:57 GMT 2017 
+2017-10-25 14:28:28,862 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:28:28 GMT 2017 
+2017-10-25 14:28:29,727 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:28:29 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:28:29,769 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:28:29 GMT 2017 
+2017-10-25 14:28:33,577 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:28:33 GMT 2017 
+2017-10-25 14:28:54,555 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:28:54 GMT 2017 
+2017-10-25 14:28:55,349 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:28:55 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:28:55,391 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:28:55 GMT 2017 
+2017-10-25 14:28:58,846 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:28:58 GMT 2017 
+2017-10-25 14:29:31,055 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:29:31 GMT 2017 
+2017-10-25 14:29:32,217 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:29:32 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:29:32,297 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:29:32 GMT 2017 
+2017-10-25 14:29:36,271 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:29:36 GMT 2017 
+2017-10-25 14:30:02,092 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:30:02 GMT 2017 
+2017-10-25 14:30:03,029 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:30:03 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:30:03,072 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:30:03 GMT 2017 
+2017-10-25 14:30:07,480 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:30:07 GMT 2017 
+2017-10-25 14:31:11,075 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:31:11 GMT 2017 
+2017-10-25 14:31:12,362 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:31:12 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:31:12,445 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:31:12 GMT 2017 
+2017-10-25 14:31:16,065 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error Demo Wed Oct 25 14:31:16 GMT 2017 
+2017-10-25 14:31:21,303 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:31:21 GMT 2017 
+2017-10-25 14:34:41,106 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:34:41 GMT 2017 
+2017-10-25 14:34:41,995 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:34:41 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:34:42,036 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:34:42 GMT 2017 
+2017-10-25 14:34:46,651 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:34:46 GMT 2017 
+2017-10-25 14:35:49,029 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:35:49 GMT 2017 
+2017-10-25 14:35:50,224 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:35:50 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:35:50,290 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:35:50 GMT 2017 
+2017-10-25 14:35:55,558 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:35:55 GMT 2017 
+2017-10-25 14:36:38,641 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:36:38 GMT 2017 
+2017-10-25 14:36:39,681 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:36:39 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:36:39,727 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:36:39 GMT 2017 
+2017-10-25 14:36:44,453 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:36:44 GMT 2017 
+2017-10-25 14:37:36,885 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:37:36 GMT 2017 
+2017-10-25 14:37:38,011 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:37:38 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:37:38,068 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:37:38 GMT 2017 
+2017-10-25 14:37:49,880 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:37:49 GMT 2017 
+2017-10-25 14:38:19,632 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:38:19 GMT 2017 
+2017-10-25 14:38:20,540 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:38:20 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:38:20,573 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:38:20 GMT 2017 
+2017-10-25 14:38:36,425 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:38:36 GMT 2017 
+2017-10-25 14:39:47,626 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:39:47 GMT 2017 
+2017-10-25 14:39:48,788 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:39:48 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:39:48,843 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:39:48 GMT 2017 
+2017-10-25 14:39:55,666 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:39:55 GMT 2017 
+2017-10-25 14:40:23,602 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:40:23 GMT 2017 
+2017-10-25 14:40:24,682 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:40:24 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:40:24,742 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:40:24 GMT 2017 
+2017-10-25 14:40:29,010 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:40:29 GMT 2017 
+2017-10-25 14:42:19,572 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:42:19 GMT 2017 
+2017-10-25 14:42:20,476 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:42:20 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:42:20,752 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:42:20 GMT 2017 
+2017-10-25 14:42:26,472 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:42:26 GMT 2017 
+2017-10-25 14:43:16,925 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:43:16 GMT 2017 
+2017-10-25 14:43:18,070 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:43:18 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:43:18,120 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:43:18 GMT 2017 
+2017-10-25 14:43:22,819 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:43:22 GMT 2017 
+2017-10-25 14:44:48,346 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:44:48 GMT 2017 
+2017-10-25 14:44:49,517 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:44:49 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:44:49,602 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:44:49 GMT 2017 
+2017-10-25 14:44:56,605 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:44:56 GMT 2017 
+2017-10-25 14:45:57,853 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:45:57 GMT 2017 
+2017-10-25 14:45:59,002 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:45:59 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:45:59,060 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:45:59 GMT 2017 
+2017-10-25 14:46:03,320 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Wed Oct 25 14:46:03 GMT 2017 
+2017-10-25 14:46:08,193 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:46:08 GMT 2017 
+2017-10-25 14:46:29,486 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:46:29 GMT 2017 
+2017-10-25 14:46:30,671 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:46:30 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:46:30,734 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:46:30 GMT 2017 
+2017-10-25 14:46:40,320 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:46:40 GMT 2017 
+2017-10-25 14:48:45,316 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:48:45 GMT 2017 
+2017-10-25 14:48:46,251 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:48:46 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:48:46,325 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:48:46 GMT 2017 
+2017-10-25 14:48:52,438 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:48:52 GMT 2017 
+2017-10-25 14:49:45,766 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:49:45 GMT 2017 
+2017-10-25 14:49:46,711 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:49:46 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:49:46,753 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:49:46 GMT 2017 
+2017-10-25 14:49:51,992 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:49:51 GMT 2017 
+2017-10-25 14:50:48,596 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:50:48 GMT 2017 
+2017-10-25 14:50:49,706 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:50:49 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:50:49,762 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:50:49 GMT 2017 
+2017-10-25 14:55:51,881 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:55:51 GMT 2017 
+2017-10-25 14:57:25,485 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:57:25 GMT 2017 
+2017-10-25 14:57:26,558 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:57:26 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:57:26,602 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:57:26 GMT 2017 
+2017-10-25 14:57:32,778 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 14:57:32 GMT 2017 
+2017-10-25 14:58:42,389 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:58:42 GMT 2017 
+2017-10-25 14:58:43,138 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:58:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:58:43,183 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:58:43 GMT 2017 
+2017-10-25 14:58:56,964 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 25 14:58:56 GMT 2017 
+2017-10-25 14:59:56,069 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 14:59:56 GMT 2017 
+2017-10-25 14:59:57,041 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 14:59:57 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 14:59:57,080 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 14:59:57 GMT 2017 
+2017-10-25 15:00:03,318 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 25 15:00:03 GMT 2017 
+2017-10-25 15:02:30,531 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 15:02:30 GMT 2017 
+2017-10-25 15:02:31,277 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 15:02:31 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 15:02:31,315 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 15:02:31 GMT 2017 
+2017-10-25 15:02:37,254 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 25 15:02:37 GMT 2017 
+2017-10-25 15:04:23,336 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 15:04:23 GMT 2017 
+2017-10-25 15:04:24,270 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 15:04:24 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 15:04:24,327 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 15:04:24 GMT 2017 
+2017-10-25 15:04:28,442 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Oct 25 15:04:28 GMT 2017 
+2017-10-25 15:35:31,322 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 15:35:31 GMT 2017 
+2017-10-25 15:35:33,060 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 15:35:33 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 15:35:33,963 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 15:35:33 GMT 2017 
+2017-10-25 15:35:39,228 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 15:35:39 GMT 2017 
+2017-10-25 15:38:58,158 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 15:38:58 GMT 2017 
+2017-10-25 15:38:59,340 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 15:38:59 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 15:38:59,424 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 15:38:59 GMT 2017 
+2017-10-25 15:39:05,033 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 15:39:05 GMT 2017 
+2017-10-25 15:41:44,372 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 15:41:44 GMT 2017 
+2017-10-25 15:41:46,545 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 15:41:46 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 15:41:46,582 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 15:41:46 GMT 2017 
+2017-10-25 15:41:54,346 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Oct 25 15:41:54 GMT 2017 
+2017-10-25 15:41:55,487 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Oct 25 15:41:55 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-25 15:41:55,526 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Oct 25 15:41:55 GMT 2017 
+2017-10-25 15:42:28,610 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected demo Wed Oct 25 15:42:28 GMT 2017 
+2017-10-31 09:56:36,465 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Tue Oct 31 09:56:36 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-10-31 09:57:52,377 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Oct 31 09:57:52 GMT 2017 
+2017-10-31 09:57:53,614 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Oct 31 09:57:53 GMT 2017 database.ConnectionManager Ligne 105  
+2017-10-31 09:57:53,881 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Oct 31 09:57:53 GMT 2017 
+2017-10-31 09:58:07,556 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Oct 31 09:58:07 GMT 2017 
+2017-11-03 13:52:08,595 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 13:52:08 GMT 2017 
+2017-11-03 13:52:10,655 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 13:52:10 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 13:52:10,878 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 13:52:10 GMT 2017 
+2017-11-03 13:52:37,602 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 13:52:37 GMT 2017 
+2017-11-03 13:52:38,567 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 13:52:38 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 13:52:38,644 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 13:52:38 GMT 2017 
+2017-11-03 13:52:43,563 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 13:52:43 GMT 2017 
+2017-11-03 13:55:14,774 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 13:55:14 GMT 2017 
+2017-11-03 13:55:15,728 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 13:55:15 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 13:55:15,768 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 13:55:15 GMT 2017 
+2017-11-03 13:55:19,528 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 13:55:19 GMT 2017 
+2017-11-03 13:59:56,594 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 13:59:56 GMT 2017 
+2017-11-03 13:59:57,530 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 13:59:57 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 13:59:57,579 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 13:59:57 GMT 2017 
+2017-11-03 14:00:02,163 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 14:00:02 GMT 2017 
+2017-11-03 14:12:52,982 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 14:12:52 GMT 2017 
+2017-11-03 14:12:53,835 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 14:12:53 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 14:12:53,872 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 14:12:53 GMT 2017 
+2017-11-03 14:13:00,555 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 14:13:00 GMT 2017 
+2017-11-03 16:49:27,639 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 16:49:27 GMT 2017 
+2017-11-03 16:49:32,852 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 16:49:32 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 16:49:33,952 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 16:49:33 GMT 2017 
+2017-11-03 16:49:46,904 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 16:49:46 GMT 2017 
+2017-11-03 16:56:59,208 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 16:56:59 GMT 2017 
+2017-11-03 16:57:00,196 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 16:57:00 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 16:57:00,224 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 16:57:00 GMT 2017 
+2017-11-03 16:57:09,989 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 16:57:09 GMT 2017 
+2017-11-03 17:03:08,573 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:03:08 GMT 2017 
+2017-11-03 17:03:09,731 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:03:09 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:03:09,786 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:03:09 GMT 2017 
+2017-11-03 17:03:15,518 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:03:15 GMT 2017 
+2017-11-03 17:07:25,875 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:07:25 GMT 2017 
+2017-11-03 17:07:26,845 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:07:26 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:07:26,880 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:07:26 GMT 2017 
+2017-11-03 17:07:31,801 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:07:31 GMT 2017 
+2017-11-03 17:11:04,154 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:11:04 GMT 2017 
+2017-11-03 17:11:04,871 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:11:04 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:11:04,906 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:11:04 GMT 2017 
+2017-11-03 17:11:16,715 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:11:16 GMT 2017 
+2017-11-03 17:14:47,576 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:14:47 GMT 2017 
+2017-11-03 17:14:48,503 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:14:48 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:14:48,545 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:14:48 GMT 2017 
+2017-11-03 17:14:52,451 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:14:52 GMT 2017 
+2017-11-03 17:20:58,604 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:20:58 GMT 2017 
+2017-11-03 17:20:59,561 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:20:59 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:20:59,619 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:20:59 GMT 2017 
+2017-11-03 17:21:03,570 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:21:03 GMT 2017 
+2017-11-03 17:22:53,397 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:22:53 GMT 2017 
+2017-11-03 17:22:54,187 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:22:54 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:22:54,225 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:22:54 GMT 2017 
+2017-11-03 17:22:59,800 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Fri Nov 03 17:22:59 GMT 2017 
+2017-11-03 17:23:04,680 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:23:04 GMT 2017 
+2017-11-03 17:40:12,341 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:40:12 GMT 2017 
+2017-11-03 17:40:13,085 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:40:13 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:40:13,118 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:40:13 GMT 2017 
+2017-11-03 17:40:22,636 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:40:22 GMT 2017 
+2017-11-03 17:48:59,300 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:48:59 GMT 2017 
+2017-11-03 17:49:00,035 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:49:00 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:49:00,065 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:49:00 GMT 2017 
+2017-11-03 17:49:07,892 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:49:07 GMT 2017 
+2017-11-03 17:49:51,337 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:49:51 GMT 2017 
+2017-11-03 17:49:52,450 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:49:52 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:49:52,493 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:49:52 GMT 2017 
+2017-11-03 17:49:56,913 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:49:56 GMT 2017 
+2017-11-03 17:51:04,481 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:51:04 GMT 2017 
+2017-11-03 17:51:05,265 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:51:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:51:05,300 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:51:05 GMT 2017 
+2017-11-03 17:51:10,093 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:51:10 GMT 2017 
+2017-11-03 17:58:04,907 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:58:04 GMT 2017 
+2017-11-03 17:58:05,941 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:58:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:58:05,974 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:58:05 GMT 2017 
+2017-11-03 17:58:15,576 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:58:15 GMT 2017 
+2017-11-03 17:58:49,370 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 17:58:49 GMT 2017 
+2017-11-03 17:58:50,646 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 17:58:50 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 17:58:50,711 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 17:58:50 GMT 2017 
+2017-11-03 17:59:07,579 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 17:59:07 GMT 2017 
+2017-11-03 18:02:04,585 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 18:02:04 GMT 2017 
+2017-11-03 18:02:05,803 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 18:02:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 18:02:05,832 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 18:02:05 GMT 2017 
+2017-11-03 18:03:12,742 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 18:03:12 GMT 2017 
+2017-11-03 18:03:53,041 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 18:03:53 GMT 2017 
+2017-11-03 18:03:54,359 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 18:03:54 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 18:03:54,404 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 18:03:54 GMT 2017 
+2017-11-03 18:04:00,545 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 18:04:00 GMT 2017 
+2017-11-03 18:05:42,515 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 18:05:42 GMT 2017 
+2017-11-03 18:05:43,839 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 18:05:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 18:05:43,913 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 18:05:43 GMT 2017 
+2017-11-03 18:05:48,887 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 18:05:48 GMT 2017 
+2017-11-03 18:09:45,696 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Fri Nov 03 18:09:45 GMT 2017 
+2017-11-03 18:09:46,589 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Fri Nov 03 18:09:46 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-03 18:09:46,636 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Fri Nov 03 18:09:46 GMT 2017 
+2017-11-03 18:10:15,912 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Fri Nov 03 18:10:15 GMT 2017 
+2017-11-06 10:45:03,070 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 10:45:03 GMT 2017 
+2017-11-06 10:45:05,927 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 10:45:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 10:45:06,219 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 10:45:06 GMT 2017 
+2017-11-06 10:45:13,397 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 10:45:13 GMT 2017 
+2017-11-06 10:46:24,951 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 10:46:24 GMT 2017 
+2017-11-06 10:46:26,040 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 10:46:26 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 10:46:26,093 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 10:46:26 GMT 2017 
+2017-11-06 10:46:39,888 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 10:46:39 GMT 2017 
+2017-11-06 10:52:17,556 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 10:52:17 GMT 2017 
+2017-11-06 10:52:18,410 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 10:52:18 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 10:52:18,450 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 10:52:18 GMT 2017 
+2017-11-06 10:52:59,987 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 10:52:59 GMT 2017 
+2017-11-06 10:53:00,881 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 10:53:00 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 10:53:00,938 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 10:53:00 GMT 2017 
+2017-11-06 10:53:07,521 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Mon Nov 06 10:53:07 GMT 2017 
+2017-11-06 10:53:14,351 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 10:53:14 GMT 2017 
+2017-11-06 10:54:03,847 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 10:54:03 GMT 2017 
+2017-11-06 10:54:05,206 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 10:54:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 10:54:05,270 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 10:54:05 GMT 2017 
+2017-11-06 10:54:10,481 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 10:54:10 GMT 2017 
+2017-11-06 10:57:27,086 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 10:57:27 GMT 2017 
+2017-11-06 10:57:28,304 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 10:57:28 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 10:57:28,341 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 10:57:28 GMT 2017 
+2017-11-06 10:58:40,196 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 10:58:40 GMT 2017 
+2017-11-06 10:58:41,056 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 10:58:41 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 10:58:41,104 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 10:58:41 GMT 2017 
+2017-11-06 10:58:47,319 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 10:58:47 GMT 2017 
+2017-11-06 10:59:49,529 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 10:59:49 GMT 2017 
+2017-11-06 10:59:50,397 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 10:59:50 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 10:59:50,442 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 10:59:50 GMT 2017 
+2017-11-06 11:00:13,103 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 11:00:13 GMT 2017 
+2017-11-06 11:01:01,056 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 11:01:01 GMT 2017 
+2017-11-06 11:01:02,108 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 11:01:02 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 11:01:02,154 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 11:01:02 GMT 2017 
+2017-11-06 11:01:19,476 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 11:01:19 GMT 2017 
+2017-11-06 11:03:09,067 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 11:03:09 GMT 2017 
+2017-11-06 11:03:09,955 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 11:03:09 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 11:03:09,997 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 11:03:09 GMT 2017 
+2017-11-06 11:03:48,264 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 11:03:48 GMT 2017 
+2017-11-06 11:04:40,810 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 11:04:40 GMT 2017 
+2017-11-06 11:04:41,694 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 11:04:41 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 11:04:41,742 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 11:04:41 GMT 2017 
+2017-11-06 11:04:46,161 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 11:04:46 GMT 2017 
+2017-11-06 11:05:36,682 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 11:05:36 GMT 2017 
+2017-11-06 11:05:37,766 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 11:05:37 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 11:05:37,807 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 11:05:37 GMT 2017 
+2017-11-06 11:05:42,397 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 11:05:42 GMT 2017 
+2017-11-06 11:12:47,744 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 11:12:47 GMT 2017 
+2017-11-06 11:12:48,844 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 11:12:48 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 11:12:48,881 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 11:12:48 GMT 2017 
+2017-11-06 11:12:55,503 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 11:12:55 GMT 2017 
+2017-11-06 11:16:26,258 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 11:16:26 GMT 2017 
+2017-11-06 11:16:27,780 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 11:16:27 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 11:16:27,891 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 11:16:27 GMT 2017 
+2017-11-06 11:16:39,280 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 11:16:39 GMT 2017 
+2017-11-06 11:16:40,120 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 11:16:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 11:16:40,156 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 11:16:40 GMT 2017 
+2017-11-06 11:16:45,896 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 11:16:45 GMT 2017 
+2017-11-06 11:17:53,408 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 11:17:53 GMT 2017 
+2017-11-06 11:17:54,583 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 11:17:54 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 11:17:54,631 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 11:17:54 GMT 2017 
+2017-11-06 11:18:01,607 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 11:18:01 GMT 2017 
+2017-11-06 12:35:34,434 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 12:35:34 GMT 2017 
+2017-11-06 12:35:35,351 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 12:35:35 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 12:35:35,395 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 12:35:35 GMT 2017 
+2017-11-06 12:35:47,972 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 12:35:47 GMT 2017 
+2017-11-06 12:37:10,341 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 12:37:10 GMT 2017 
+2017-11-06 12:37:11,080 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 12:37:11 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 12:37:11,121 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 12:37:11 GMT 2017 
+2017-11-06 12:37:21,521 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Mon Nov 06 12:37:21 GMT 2017 
+2017-11-06 12:37:30,361 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 12:37:30 GMT 2017 
+2017-11-06 13:27:19,800 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:27:19 GMT 2017 
+2017-11-06 13:27:20,910 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:27:20 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:27:20,969 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:27:20 GMT 2017 
+2017-11-06 13:27:32,402 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:27:32 GMT 2017 
+2017-11-06 13:30:09,491 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:30:09 GMT 2017 
+2017-11-06 13:30:10,437 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:30:10 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:30:10,482 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:30:10 GMT 2017 
+2017-11-06 13:30:18,167 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:30:18 GMT 2017 
+2017-11-06 13:33:21,157 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:33:21 GMT 2017 
+2017-11-06 13:33:22,170 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:33:22 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:33:22,210 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:33:22 GMT 2017 
+2017-11-06 13:33:27,853 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:33:27 GMT 2017 
+2017-11-06 13:35:26,725 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:35:26 GMT 2017 
+2017-11-06 13:35:27,813 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:35:27 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:35:27,859 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:35:27 GMT 2017 
+2017-11-06 13:35:31,856 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:35:31 GMT 2017 
+2017-11-06 13:36:26,838 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:36:26 GMT 2017 
+2017-11-06 13:36:27,908 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:36:27 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:36:27,940 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:36:27 GMT 2017 
+2017-11-06 13:36:39,306 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:36:39 GMT 2017 
+2017-11-06 13:40:33,419 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:40:33 GMT 2017 
+2017-11-06 13:40:34,479 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:40:34 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:40:34,525 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:40:34 GMT 2017 
+2017-11-06 13:40:53,092 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:40:53 GMT 2017 
+2017-11-06 13:45:43,245 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:45:43 GMT 2017 
+2017-11-06 13:45:44,470 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:45:44 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:45:44,504 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:45:44 GMT 2017 
+2017-11-06 13:45:50,519 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:45:50 GMT 2017 
+2017-11-06 13:47:31,838 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:47:31 GMT 2017 
+2017-11-06 13:47:32,718 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:47:32 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:47:32,765 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:47:32 GMT 2017 
+2017-11-06 13:47:39,475 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:47:39 GMT 2017 
+2017-11-06 13:56:19,017 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:56:19 GMT 2017 
+2017-11-06 13:56:20,061 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:56:20 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:56:20,106 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:56:20 GMT 2017 
+2017-11-06 13:56:23,938 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:56:23 GMT 2017 
+2017-11-06 13:57:35,744 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 13:57:35 GMT 2017 
+2017-11-06 13:57:37,146 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 13:57:37 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 13:57:37,318 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 13:57:37 GMT 2017 
+2017-11-06 13:57:42,218 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 13:57:42 GMT 2017 
+2017-11-06 14:02:08,502 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:02:08 GMT 2017 
+2017-11-06 14:02:09,575 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:02:09 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:02:09,627 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:02:09 GMT 2017 
+2017-11-06 14:02:26,649 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 14:02:26 GMT 2017 
+2017-11-06 14:05:53,755 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:05:53 GMT 2017 
+2017-11-06 14:05:54,616 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:05:54 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:05:54,657 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:05:54 GMT 2017 
+2017-11-06 14:09:24,280 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:09:24 GMT 2017 
+2017-11-06 14:09:25,213 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:09:25 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:09:25,278 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:09:25 GMT 2017 
+2017-11-06 14:09:30,374 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 14:09:30 GMT 2017 
+2017-11-06 14:11:34,801 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:11:34 GMT 2017 
+2017-11-06 14:11:35,701 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:11:35 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:11:35,743 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:11:35 GMT 2017 
+2017-11-06 14:11:41,436 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 14:11:41 GMT 2017 
+2017-11-06 14:13:09,417 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:13:09 GMT 2017 
+2017-11-06 14:13:11,041 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:13:11 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:13:11,074 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:13:11 GMT 2017 
+2017-11-06 14:14:58,192 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:14:58 GMT 2017 
+2017-11-06 14:14:59,039 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:14:59 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:14:59,071 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:14:59 GMT 2017 
+2017-11-06 14:15:09,406 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 14:15:09 GMT 2017 
+2017-11-06 14:28:03,717 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:28:03 GMT 2017 
+2017-11-06 14:28:04,669 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:28:04 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:28:04,773 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:28:04 GMT 2017 
+2017-11-06 14:28:10,907 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 14:28:10 GMT 2017 
+2017-11-06 14:31:10,607 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:31:10 GMT 2017 
+2017-11-06 14:31:11,643 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:31:11 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:31:11,680 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:31:11 GMT 2017 
+2017-11-06 14:31:23,621 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 14:31:23 GMT 2017 
+2017-11-06 14:35:08,886 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 06 14:35:08 GMT 2017 
+2017-11-06 14:35:09,897 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 06 14:35:09 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-06 14:35:09,930 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 06 14:35:09 GMT 2017 
+2017-11-06 14:35:15,627 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 06 14:35:15 GMT 2017 
+2017-11-07 08:58:20,105 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Nov 07 08:58:20 GMT 2017 
+2017-11-07 08:58:22,946 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Nov 07 08:58:22 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-07 08:58:23,494 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Nov 07 08:58:23 GMT 2017 
+2017-11-07 08:59:17,641 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Nov 07 08:59:17 GMT 2017 
+2017-11-07 09:22:09,915 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Nov 07 09:22:09 GMT 2017 
+2017-11-07 09:22:11,238 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Nov 07 09:22:11 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-07 09:22:11,301 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Nov 07 09:22:11 GMT 2017 
+2017-11-07 09:22:15,455 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Nov 07 09:22:15 GMT 2017 
+2017-11-07 09:30:02,583 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Nov 07 09:30:02 GMT 2017 
+2017-11-07 09:30:04,014 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Nov 07 09:30:04 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-07 09:30:04,055 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Nov 07 09:30:04 GMT 2017 
+2017-11-07 09:30:10,528 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Nov 07 09:30:10 GMT 2017 
+2017-11-07 09:30:53,153 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Nov 07 09:30:53 GMT 2017 
+2017-11-07 09:30:54,092 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Nov 07 09:30:54 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-07 09:30:54,128 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Nov 07 09:30:54 GMT 2017 
+2017-11-07 09:31:00,017 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Nov 07 09:31:00 GMT 2017 
+2017-11-07 09:33:34,918 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Nov 07 09:33:34 GMT 2017 
+2017-11-07 09:33:36,026 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Nov 07 09:33:36 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-07 09:33:36,089 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Nov 07 09:33:36 GMT 2017 
+2017-11-07 09:33:39,802 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Nov 07 09:33:39 GMT 2017 
+2017-11-07 09:34:31,184 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Nov 07 09:34:31 GMT 2017 
+2017-11-07 09:34:32,127 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Nov 07 09:34:32 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-07 09:34:32,173 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Nov 07 09:34:32 GMT 2017 
+2017-11-07 09:34:39,763 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Nov 07 09:34:39 GMT 2017 
+2017-11-07 09:36:48,665 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Nov 07 09:36:48 GMT 2017 
+2017-11-07 09:36:49,585 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Nov 07 09:36:49 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-07 09:36:49,624 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Nov 07 09:36:49 GMT 2017 
+2017-11-07 09:36:53,695 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Nov 07 09:36:53 GMT 2017 
+2017-11-07 09:52:28,749 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Tue Nov 07 09:52:28 GMT 2017 
+2017-11-07 09:52:29,916 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Tue Nov 07 09:52:29 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-07 09:52:30,009 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Tue Nov 07 09:52:30 GMT 2017 
+2017-11-07 09:52:37,322 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Tue Nov 07 09:52:37 GMT 2017 
+2017-11-08 08:39:01,907 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 08 08:39:01 GMT 2017 
+2017-11-08 08:39:05,275 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 08 08:39:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-08 08:39:06,014 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 08 08:39:06 GMT 2017 
+2017-11-08 08:39:25,335 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 08 08:39:25 GMT 2017 
+2017-11-20 08:42:39,162 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 08:42:39 GMT 2017 
+2017-11-20 08:42:42,115 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 08:42:42 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 08:42:42,289 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 08:42:42 GMT 2017 
+2017-11-20 08:42:48,980 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 08:42:48 GMT 2017 
+2017-11-20 11:15:44,491 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:15:44 GMT 2017 
+2017-11-20 11:15:46,365 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:15:46 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:15:46,411 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:15:46 GMT 2017 
+2017-11-20 11:15:56,463 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 11:15:56 GMT 2017 
+2017-11-20 11:16:43,699 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:16:43 GMT 2017 
+2017-11-20 11:16:44,628 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:16:44 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:16:44,677 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:16:44 GMT 2017 
+2017-11-20 11:17:42,224 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 11:17:42 GMT 2017 
+2017-11-20 11:19:56,889 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:19:56 GMT 2017 
+2017-11-20 11:19:58,041 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:19:58 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:19:58,077 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:19:58 GMT 2017 
+2017-11-20 11:20:29,933 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 11:20:29 GMT 2017 
+2017-11-20 11:22:17,087 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:22:17 GMT 2017 
+2017-11-20 11:22:18,168 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:22:18 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:22:18,231 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:22:18 GMT 2017 
+2017-11-20 11:22:26,199 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 11:22:26 GMT 2017 
+2017-11-20 11:28:10,337 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:28:10 GMT 2017 
+2017-11-20 11:28:11,681 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:28:11 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:28:11,718 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:28:11 GMT 2017 
+2017-11-20 11:28:48,667 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 11:28:48 GMT 2017 
+2017-11-20 11:29:41,248 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:29:41 GMT 2017 
+2017-11-20 11:29:42,104 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:29:42 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:29:42,137 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:29:42 GMT 2017 
+2017-11-20 11:30:13,756 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:30:13 GMT 2017 
+2017-11-20 11:30:14,664 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:30:14 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:30:14,707 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:30:14 GMT 2017 
+2017-11-20 11:30:19,819 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 11:30:19 GMT 2017 
+2017-11-20 11:32:39,406 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:32:39 GMT 2017 
+2017-11-20 11:32:40,480 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:32:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:32:40,552 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:32:40 GMT 2017 
+2017-11-20 11:33:17,019 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 11:33:17 GMT 2017 
+2017-11-20 11:35:43,826 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 11:35:43 GMT 2017 
+2017-11-20 11:35:45,114 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 11:35:45 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 11:35:45,155 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 11:35:45 GMT 2017 
+2017-11-20 11:36:26,085 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 11:36:26 GMT 2017 
+2017-11-20 12:21:44,210 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:21:44 GMT 2017 
+2017-11-20 12:21:45,306 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:21:45 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:21:45,383 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:21:45 GMT 2017 
+2017-11-20 12:21:51,097 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:21:51 GMT 2017 
+2017-11-20 12:24:28,092 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:24:28 GMT 2017 
+2017-11-20 12:24:28,952 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:24:28 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:24:28,993 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:24:28 GMT 2017 
+2017-11-20 12:25:02,247 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:25:02 GMT 2017 
+2017-11-20 12:28:55,430 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:28:55 GMT 2017 
+2017-11-20 12:28:56,337 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:28:56 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:28:56,384 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:28:56 GMT 2017 
+2017-11-20 12:29:05,963 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:29:05 GMT 2017 
+2017-11-20 12:30:18,249 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:30:18 GMT 2017 
+2017-11-20 12:30:19,149 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:30:19 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:30:19,191 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:30:19 GMT 2017 
+2017-11-20 12:30:24,803 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:30:24 GMT 2017 
+2017-11-20 12:32:08,081 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:32:08 GMT 2017 
+2017-11-20 12:32:09,339 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:32:09 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:32:09,377 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:32:09 GMT 2017 
+2017-11-20 12:32:47,755 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:32:47 GMT 2017 
+2017-11-20 12:34:11,828 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:34:11 GMT 2017 
+2017-11-20 12:34:12,989 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:34:12 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:34:13,029 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:34:13 GMT 2017 
+2017-11-20 12:35:31,470 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:35:31 GMT 2017 
+2017-11-20 12:35:32,422 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:35:32 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:35:32,455 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:35:32 GMT 2017 
+2017-11-20 12:35:36,702 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:35:36 GMT 2017 
+2017-11-20 12:39:52,566 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:39:52 GMT 2017 
+2017-11-20 12:39:53,775 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:39:53 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:39:53,827 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:39:53 GMT 2017 
+2017-11-20 12:40:24,968 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:40:24 GMT 2017 
+2017-11-20 12:40:57,845 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:40:57 GMT 2017 
+2017-11-20 12:40:58,570 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:40:58 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:40:58,602 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:40:58 GMT 2017 
+2017-11-20 12:41:36,799 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:41:36 GMT 2017 
+2017-11-20 12:43:08,170 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Mon Nov 20 12:43:08 GMT 2017 
+2017-11-20 12:43:08,961 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Mon Nov 20 12:43:08 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-20 12:43:09,010 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Mon Nov 20 12:43:09 GMT 2017 
+2017-11-20 12:43:21,847 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Mon Nov 20 12:43:21 GMT 2017 
+2017-11-22 11:09:17,472 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:09:17 GMT 2017 
+2017-11-22 11:09:18,967 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:09:18 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:09:19,129 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:09:19 GMT 2017 
+2017-11-22 11:09:27,176 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:09:27 GMT 2017 
+2017-11-22 11:17:56,048 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:17:56 GMT 2017 
+2017-11-22 11:17:57,111 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:17:57 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:17:57,159 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:17:57 GMT 2017 
+2017-11-22 11:18:03,950 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Wed Nov 22 11:18:03 GMT 2017 
+2017-11-22 11:18:08,986 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:18:08 GMT 2017 
+2017-11-22 11:18:27,486 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:18:27 GMT 2017 
+2017-11-22 11:18:28,523 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:18:28 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:18:28,568 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:18:28 GMT 2017 
+2017-11-22 11:18:33,933 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:18:33 GMT 2017 
+2017-11-22 11:20:23,884 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:20:23 GMT 2017 
+2017-11-22 11:20:24,775 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:20:24 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:20:24,868 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:20:24 GMT 2017 
+2017-11-22 11:20:28,780 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:20:28 GMT 2017 
+2017-11-22 11:23:14,748 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:23:14 GMT 2017 
+2017-11-22 11:23:15,911 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:23:15 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:23:15,946 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:23:15 GMT 2017 
+2017-11-22 11:23:25,491 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:23:25 GMT 2017 
+2017-11-22 11:25:06,545 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:25:06 GMT 2017 
+2017-11-22 11:25:07,793 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:25:07 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:25:07,836 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:25:07 GMT 2017 
+2017-11-22 11:25:14,863 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:25:14 GMT 2017 
+2017-11-22 11:28:42,312 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:28:42 GMT 2017 
+2017-11-22 11:28:43,252 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:28:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:28:43,290 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:28:43 GMT 2017 
+2017-11-22 11:28:48,708 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:28:48 GMT 2017 
+2017-11-22 11:41:49,803 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:41:49 GMT 2017 
+2017-11-22 11:41:50,666 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:41:50 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:41:50,706 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:41:50 GMT 2017 
+2017-11-22 11:41:55,082 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:41:55 GMT 2017 
+2017-11-22 11:52:23,011 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:52:23 GMT 2017 
+2017-11-22 11:52:24,391 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:52:24 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:52:24,430 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:52:24 GMT 2017 
+2017-11-22 11:52:30,002 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:52:30 GMT 2017 
+2017-11-22 11:56:01,108 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 11:56:01 GMT 2017 
+2017-11-22 11:56:02,001 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 11:56:02 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 11:56:02,038 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 11:56:02 GMT 2017 
+2017-11-22 11:56:39,733 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 11:56:39 GMT 2017 
+2017-11-22 12:01:48,387 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:01:48 GMT 2017 
+2017-11-22 12:01:49,639 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:01:49 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:01:49,754 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:01:49 GMT 2017 
+2017-11-22 12:02:43,591 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:02:43 GMT 2017 
+2017-11-22 12:06:04,137 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:06:04 GMT 2017 
+2017-11-22 12:06:05,262 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:06:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:06:05,306 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:06:05 GMT 2017 
+2017-11-22 12:06:15,889 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:06:15 GMT 2017 
+2017-11-22 12:07:14,930 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:07:14 GMT 2017 
+2017-11-22 12:07:15,900 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:07:15 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:07:15,956 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:07:15 GMT 2017 
+2017-11-22 12:07:23,332 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:07:23 GMT 2017 
+2017-11-22 12:12:21,845 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:12:21 GMT 2017 
+2017-11-22 12:12:22,582 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:12:22 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:12:22,614 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:12:22 GMT 2017 
+2017-11-22 12:12:40,722 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:12:40 GMT 2017 
+2017-11-22 12:15:22,897 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:15:22 GMT 2017 
+2017-11-22 12:15:23,894 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:15:23 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:15:23,943 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:15:23 GMT 2017 
+2017-11-22 12:15:34,088 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:15:34 GMT 2017 
+2017-11-22 12:21:01,557 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:21:01 GMT 2017 
+2017-11-22 12:21:02,346 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:21:02 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:21:02,401 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:21:02 GMT 2017 
+2017-11-22 12:21:07,349 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:21:07 GMT 2017 
+2017-11-22 12:24:29,192 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:24:29 GMT 2017 
+2017-11-22 12:24:30,095 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:24:30 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:24:30,154 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:24:30 GMT 2017 
+2017-11-22 12:24:42,909 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:24:42 GMT 2017 
+2017-11-22 12:26:37,871 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:26:37 GMT 2017 
+2017-11-22 12:26:39,055 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:26:39 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:26:39,091 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:26:39 GMT 2017 
+2017-11-22 12:26:46,939 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:26:46 GMT 2017 
+2017-11-22 12:28:35,162 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:28:35 GMT 2017 
+2017-11-22 12:28:36,320 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:28:36 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:28:36,429 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:28:36 GMT 2017 
+2017-11-22 12:28:46,256 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:28:46 GMT 2017 
+2017-11-22 12:29:23,609 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:29:23 GMT 2017 
+2017-11-22 12:29:24,348 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:29:24 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:29:24,389 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:29:24 GMT 2017 
+2017-11-22 12:29:32,704 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:29:32 GMT 2017 
+2017-11-22 12:31:48,647 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:31:48 GMT 2017 
+2017-11-22 12:31:49,870 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:31:49 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:31:49,901 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:31:49 GMT 2017 
+2017-11-22 12:32:03,641 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:32:03 GMT 2017 
+2017-11-22 12:32:47,013 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:32:47 GMT 2017 
+2017-11-22 12:32:47,777 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:32:47 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:32:47,814 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:32:47 GMT 2017 
+2017-11-22 12:32:52,790 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:32:52 GMT 2017 
+2017-11-22 12:33:20,822 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:33:20 GMT 2017 
+2017-11-22 12:33:21,572 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:33:21 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:33:21,613 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:33:21 GMT 2017 
+2017-11-22 12:33:26,330 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:33:26 GMT 2017 
+2017-11-22 12:34:04,149 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:34:04 GMT 2017 
+2017-11-22 12:34:05,091 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:34:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:34:05,132 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:34:05 GMT 2017 
+2017-11-22 12:34:32,080 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:34:32 GMT 2017 
+2017-11-22 12:41:29,424 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:41:29 GMT 2017 
+2017-11-22 12:41:30,415 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:41:30 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:41:30,453 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:41:30 GMT 2017 
+2017-11-22 12:41:50,023 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:41:50 GMT 2017 
+2017-11-22 12:47:55,068 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 12:47:55 GMT 2017 
+2017-11-22 12:47:56,507 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 12:47:56 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 12:47:56,547 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 12:47:56 GMT 2017 
+2017-11-22 12:48:03,125 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 12:48:03 GMT 2017 
+2017-11-22 13:11:41,647 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 13:11:41 GMT 2017 
+2017-11-22 13:11:42,777 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 13:11:42 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 13:11:42,809 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 13:11:42 GMT 2017 
+2017-11-22 13:15:10,284 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 13:15:10 GMT 2017 
+2017-11-22 13:44:51,882 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 13:44:51 GMT 2017 
+2017-11-22 13:44:53,159 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 13:44:53 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 13:44:53,203 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 13:44:53 GMT 2017 
+2017-11-22 13:45:12,523 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 13:45:12 GMT 2017 
+2017-11-22 13:51:03,263 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 13:51:03 GMT 2017 
+2017-11-22 13:51:04,332 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 13:51:04 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 13:51:04,378 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 13:51:04 GMT 2017 
+2017-11-22 13:51:38,543 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 13:51:38 GMT 2017 
+2017-11-22 13:52:41,912 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 13:52:41 GMT 2017 
+2017-11-22 13:52:43,651 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 13:52:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 13:52:43,693 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 13:52:43 GMT 2017 
+2017-11-22 13:54:01,307 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 13:54:01 GMT 2017 
+2017-11-22 13:56:04,049 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 13:56:04 GMT 2017 
+2017-11-22 13:56:05,019 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 13:56:05 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 13:56:05,083 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 13:56:05 GMT 2017 
+2017-11-22 13:56:27,867 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 13:56:27 GMT 2017 
+2017-11-22 13:57:34,564 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 13:57:34 GMT 2017 
+2017-11-22 13:57:36,118 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 13:57:36 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 13:57:36,158 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 13:57:36 GMT 2017 
+2017-11-22 13:58:36,055 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 13:58:36 GMT 2017 
+2017-11-22 14:00:39,559 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 14:00:39 GMT 2017 
+2017-11-22 14:00:40,685 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 14:00:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 14:00:40,741 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 14:00:40 GMT 2017 
+2017-11-22 14:01:38,706 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 14:01:38 GMT 2017 
+2017-11-22 14:08:22,588 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 14:08:22 GMT 2017 
+2017-11-22 14:08:23,425 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 14:08:23 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 14:08:23,455 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 14:08:23 GMT 2017 
+2017-11-22 14:36:03,522 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 14:36:03 GMT 2017 
+2017-11-22 14:36:04,446 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 14:36:04 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 14:36:04,524 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 14:36:04 GMT 2017 
+2017-11-22 14:36:09,314 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 14:36:09 GMT 2017 
+2017-11-22 14:49:41,090 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 14:49:41 GMT 2017 
+2017-11-22 14:49:41,954 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 14:49:41 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 14:49:41,996 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 14:49:41 GMT 2017 
+2017-11-22 14:50:26,876 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 14:50:26 GMT 2017 
+2017-11-22 15:03:57,197 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:03:57 GMT 2017 
+2017-11-22 15:03:57,993 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:03:57 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:03:58,027 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:03:58 GMT 2017 
+2017-11-22 15:04:34,768 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:04:34 GMT 2017 
+2017-11-22 15:07:19,479 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:07:19 GMT 2017 
+2017-11-22 15:07:20,612 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:07:20 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:07:20,665 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:07:20 GMT 2017 
+2017-11-22 15:07:30,444 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:07:30 GMT 2017 
+2017-11-22 15:08:19,631 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:08:19 GMT 2017 
+2017-11-22 15:08:20,765 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:08:20 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:08:20,796 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:08:20 GMT 2017 
+2017-11-22 15:08:27,995 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:08:27 GMT 2017 
+2017-11-22 15:09:54,552 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:09:54 GMT 2017 
+2017-11-22 15:09:55,624 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:09:55 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:09:55,666 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:09:55 GMT 2017 
+2017-11-22 15:10:02,381 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:10:02 GMT 2017 
+2017-11-22 15:14:08,056 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:14:08 GMT 2017 
+2017-11-22 15:14:10,111 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:14:10 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:14:10,529 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:14:10 GMT 2017 
+2017-11-22 15:14:17,023 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:14:17 GMT 2017 
+2017-11-22 15:16:34,952 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:16:34 GMT 2017 
+2017-11-22 15:16:35,898 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:16:35 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:16:35,962 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:16:35 GMT 2017 
+2017-11-22 15:19:00,641 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:19:00 GMT 2017 
+2017-11-22 15:19:02,411 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:19:02 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:19:02,483 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:19:02 GMT 2017 
+2017-11-22 15:19:09,855 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:19:09 GMT 2017 
+2017-11-22 15:20:49,452 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:20:49 GMT 2017 
+2017-11-22 15:20:50,285 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:20:50 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:20:50,358 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:20:50 GMT 2017 
+2017-11-22 15:21:04,383 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:21:04 GMT 2017 
+2017-11-22 15:23:39,335 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:23:39 GMT 2017 
+2017-11-22 15:23:40,297 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:23:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:23:40,368 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:23:40 GMT 2017 
+2017-11-22 15:23:54,694 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:23:54 GMT 2017 
+2017-11-22 15:25:08,423 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 22 15:25:08 GMT 2017 
+2017-11-22 15:25:09,543 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 22 15:25:09 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-22 15:25:09,587 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 22 15:25:09 GMT 2017 
+2017-11-22 15:26:05,338 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 22 15:26:05 GMT 2017 
+2017-11-29 08:20:23,462 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 08:20:23 GMT 2017 
+2017-11-29 08:20:26,347 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 08:20:26 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 08:20:26,522 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 08:20:26 GMT 2017 
+2017-11-29 08:20:37,696 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 29 08:20:37 GMT 2017 
+2017-11-29 08:28:24,670 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 08:28:24 GMT 2017 
+2017-11-29 08:28:25,788 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 08:28:25 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 08:28:25,857 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 08:28:25 GMT 2017 
+2017-11-29 08:28:32,145 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 29 08:28:32 GMT 2017 
+2017-11-29 08:29:25,146 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 08:29:25 GMT 2017 
+2017-11-29 08:29:26,456 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 08:29:26 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 08:29:26,494 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 08:29:26 GMT 2017 
+2017-11-29 08:29:42,435 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 08:29:42 GMT 2017 
+2017-11-29 08:29:43,324 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 08:29:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 08:29:43,363 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 08:29:43 GMT 2017 
+2017-11-29 08:29:49,916 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 29 08:29:49 GMT 2017 
+2017-11-29 08:34:25,125 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 08:34:25 GMT 2017 
+2017-11-29 08:34:26,364 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 08:34:26 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 08:34:26,414 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 08:34:26 GMT 2017 
+2017-11-29 08:34:32,937 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Wed Nov 29 08:34:32 GMT 2017 
+2017-11-29 11:03:13,876 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 11:03:13 GMT 2017 
+2017-11-29 11:03:16,077 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 11:03:16 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 11:03:16,236 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 11:03:16 GMT 2017 
+2017-11-29 11:03:34,189 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Wed Nov 29 11:03:34 GMT 2017 
+2017-11-29 11:03:42,220 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 11:03:42 GMT 2017 
+2017-11-29 11:24:35,176 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 11:24:35 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 11:25:15,618 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 11:25:15 GMT 2017 
+2017-11-29 11:25:17,491 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 11:25:17 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 11:25:17,777 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 11:25:17 GMT 2017 
+2017-11-29 11:25:29,604 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 11:25:29 GMT 2017 
+2017-11-29 12:04:01,811 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 12:04:01 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 12:04:21,613 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:04:21 GMT 2017 
+2017-11-29 12:04:22,839 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:04:22 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:04:22,914 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:04:22 GMT 2017 
+2017-11-29 12:04:32,382 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:04:32 GMT 2017 
+2017-11-29 12:09:34,253 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:09:34 GMT 2017 
+2017-11-29 12:09:35,214 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:09:35 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:09:35,264 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:09:35 GMT 2017 
+2017-11-29 12:09:41,109 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:09:41 GMT 2017 
+2017-11-29 12:18:03,657 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 12:18:03 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 12:18:10,869 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:18:10 GMT 2017 
+2017-11-29 12:18:11,940 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:18:11 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:18:11,984 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:18:11 GMT 2017 
+2017-11-29 12:18:17,599 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:18:17 GMT 2017 
+2017-11-29 12:24:57,168 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:24:57 GMT 2017 
+2017-11-29 12:24:58,052 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:24:58 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:24:58,098 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:24:58 GMT 2017 
+2017-11-29 12:25:02,039 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Wed Nov 29 12:25:02 GMT 2017 
+2017-11-29 12:27:51,958 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 12:27:51 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 12:28:00,173 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:28:00 GMT 2017 
+2017-11-29 12:28:01,093 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:28:01 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:28:01,140 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:28:01 GMT 2017 
+2017-11-29 12:28:07,794 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:28:07 GMT 2017 
+2017-11-29 12:29:01,701 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:29:01 GMT 2017 
+2017-11-29 12:29:02,644 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:29:02 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:29:02,693 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:29:02 GMT 2017 
+2017-11-29 12:29:07,432 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:29:07 GMT 2017 
+2017-11-29 12:37:55,736 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 12:37:55 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 12:38:02,402 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:38:02 GMT 2017 
+2017-11-29 12:38:03,475 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:38:03 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:38:03,516 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:38:03 GMT 2017 
+2017-11-29 12:38:09,039 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:38:09 GMT 2017 
+2017-11-29 12:41:48,148 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 12:41:48 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 12:41:55,746 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:41:55 GMT 2017 
+2017-11-29 12:41:56,654 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:41:56 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:41:56,934 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:41:56 GMT 2017 
+2017-11-29 12:42:01,883 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:42:01 GMT 2017 
+2017-11-29 12:44:52,494 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 12:44:52 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 12:44:59,463 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:44:59 GMT 2017 
+2017-11-29 12:45:00,387 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:45:00 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:45:00,437 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:45:00 GMT 2017 
+2017-11-29 12:45:05,195 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:45:05 GMT 2017 
+2017-11-29 12:52:32,682 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 12:52:32 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 12:52:40,053 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:52:40 GMT 2017 
+2017-11-29 12:52:40,973 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:52:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:52:41,033 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:52:41 GMT 2017 
+2017-11-29 12:52:47,596 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:52:47 GMT 2017 
+2017-11-29 12:53:36,593 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:53:36 GMT 2017 
+2017-11-29 12:53:37,488 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:53:37 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:53:37,542 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:53:37 GMT 2017 
+2017-11-29 12:53:43,529 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:53:43 GMT 2017 
+2017-11-29 12:54:42,551 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:54:42 GMT 2017 
+2017-11-29 12:54:43,282 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:54:43 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:54:43,319 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:54:43 GMT 2017 
+2017-11-29 12:54:50,647 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:54:50 GMT 2017 
+2017-11-29 12:57:19,105 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Wed Nov 29 12:57:19 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-11-29 12:57:25,877 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 12:57:25 GMT 2017 
+2017-11-29 12:57:26,644 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 12:57:26 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 12:57:26,685 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 12:57:26 GMT 2017 
+2017-11-29 12:57:32,832 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 12:57:32 GMT 2017 
+2017-11-29 13:08:38,434 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 13:08:38 GMT 2017 
+2017-11-29 13:08:39,170 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 13:08:39 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 13:08:39,210 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 13:08:39 GMT 2017 
+2017-11-29 13:08:48,918 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 13:08:48 GMT 2017 
+2017-11-29 13:10:55,638 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 13:10:55 GMT 2017 
+2017-11-29 13:10:56,923 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 13:10:56 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 13:10:56,964 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 13:10:56 GMT 2017 
+2017-11-29 13:11:04,572 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 13:11:04 GMT 2017 
+2017-11-29 13:13:01,784 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 13:13:01 GMT 2017 
+2017-11-29 13:13:02,604 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 13:13:02 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 13:13:02,654 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 13:13:02 GMT 2017 
+2017-11-29 13:13:09,924 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error christelle Wed Nov 29 13:13:09 GMT 2017 
+2017-11-29 13:13:17,291 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 13:13:17 GMT 2017 
+2017-11-29 13:21:24,802 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 13:21:24 GMT 2017 
+2017-11-29 13:21:25,612 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 13:21:25 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 13:21:25,651 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 13:21:25 GMT 2017 
+2017-11-29 13:21:35,650 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 13:21:35 GMT 2017 
+2017-11-29 13:22:02,378 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 13:22:02 GMT 2017 
+2017-11-29 13:22:03,415 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 13:22:03 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 13:22:03,481 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 13:22:03 GMT 2017 
+2017-11-29 13:22:14,297 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 13:22:14 GMT 2017 
+2017-11-29 13:25:23,958 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 13:25:23 GMT 2017 
+2017-11-29 13:25:24,921 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 13:25:24 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 13:25:24,963 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 13:25:24 GMT 2017 
+2017-11-29 13:25:34,347 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 13:25:34 GMT 2017 
+2017-11-29 13:29:18,617 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 13:29:18 GMT 2017 
+2017-11-29 13:29:19,458 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 13:29:19 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 13:29:19,491 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 13:29:19 GMT 2017 
+2017-11-29 13:29:26,719 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 13:29:26 GMT 2017 
+2017-11-29 13:32:35,755 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 13:32:35 GMT 2017 
+2017-11-29 13:32:36,998 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 13:32:36 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 13:32:37,057 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 13:32:37 GMT 2017 
+2017-11-29 13:32:44,589 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 13:32:44 GMT 2017 
+2017-11-29 14:13:17,306 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 14:13:17 GMT 2017 
+2017-11-29 14:13:22,858 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 14:13:22 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 14:13:23,196 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 14:13:23 GMT 2017 
+2017-11-29 14:16:36,020 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 14:16:36 GMT 2017 
+2017-11-29 15:04:37,060 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:04:37 GMT 2017 
+2017-11-29 15:04:39,323 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:04:39 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:04:39,407 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:04:39 GMT 2017 
+2017-11-29 15:04:57,141 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 15:04:57 GMT 2017 
+2017-11-29 15:28:55,914 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:28:55 GMT 2017 
+2017-11-29 15:28:57,020 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:28:57 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:28:57,071 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:28:57 GMT 2017 
+2017-11-29 15:30:39,676 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:30:39 GMT 2017 
+2017-11-29 15:30:40,899 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:30:40 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:30:41,117 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:30:41 GMT 2017 
+2017-11-29 15:31:03,003 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:31:02 GMT 2017 
+2017-11-29 15:31:04,575 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:31:04 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:31:04,610 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:31:04 GMT 2017 
+2017-11-29 15:31:20,485 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 15:31:20 GMT 2017 
+2017-11-29 15:39:51,100 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:39:51 GMT 2017 
+2017-11-29 15:39:52,634 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:39:52 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:39:52,686 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:39:52 GMT 2017 
+2017-11-29 15:39:58,584 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 15:39:58 GMT 2017 
+2017-11-29 15:52:21,891 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:52:21 GMT 2017 
+2017-11-29 15:52:23,146 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:52:23 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:52:23,211 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:52:23 GMT 2017 
+2017-11-29 15:52:31,245 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 15:52:31 GMT 2017 
+2017-11-29 15:57:37,521 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 15:57:37 GMT 2017 
+2017-11-29 15:57:38,743 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 15:57:38 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 15:57:38,884 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 15:57:38 GMT 2017 
+2017-11-29 15:57:44,717 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Connexion error 2ip Wed Nov 29 15:57:44 GMT 2017 
+2017-11-29 15:57:56,525 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 15:57:56 GMT 2017 
+2017-11-29 16:00:05,559 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 16:00:05 GMT 2017 
+2017-11-29 16:00:06,453 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 16:00:06 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 16:00:06,535 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 16:00:06 GMT 2017 
+2017-11-29 16:00:13,348 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 16:00:13 GMT 2017 
+2017-11-29 16:04:44,257 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 16:04:44 GMT 2017 
+2017-11-29 16:04:45,373 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 16:04:45 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 16:04:45,414 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 16:04:45 GMT 2017 
+2017-11-29 16:55:38,601 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Wed Nov 29 16:55:38 GMT 2017 
+2017-11-29 16:55:41,074 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Wed Nov 29 16:55:41 GMT 2017 database.ConnectionManager Ligne 105  
+2017-11-29 16:55:41,182 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Wed Nov 29 16:55:41 GMT 2017 
+2017-11-29 16:58:50,833 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected christelle Wed Nov 29 16:58:50 GMT 2017 
+2017-12-10 22:18:00,082 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Sun Dec 10 22:18:00 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-12-10 22:19:53,597 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Sun Dec 10 22:19:53 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-12-10 22:21:34,678 ERROR u.Log4jLoggerUtils [JavaFX Application Thread] Database Connexion Connection timed out. Sun Dec 10 22:21:34 GMT 2017 com.rethinkdb.gen.exc.ReqlDriverError: Connection timed out.
+	at main.MainApp.<init>(MainApp.java:107)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:819)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326)
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rethinkdb.net.SocketWrapper.connect(SocketWrapper.java:53)
+	at com.rethinkdb.net.Connection.connect(Connection.java:100)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:94)
+	at com.rethinkdb.net.Connection.reconnect(Connection.java:83)
+	at com.rethinkdb.net.Connection$Builder.connect(Connection.java:422)
+	at database.ConnectionManager.<init>(ConnectionManager.java:62)
+	at main.MainApp.<init>(MainApp.java:104)
+	... 13 more
+
+2017-12-10 22:31:16,688 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Sun Dec 10 22:31:16 GMT 2017 
+2017-12-10 22:31:19,377 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Sun Dec 10 22:31:19 GMT 2017 database.ConnectionManager Ligne 105  
+2017-12-10 22:31:19,650 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Sun Dec 10 22:31:19 GMT 2017 
+2017-12-10 22:31:28,575 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Sun Dec 10 22:31:28 GMT 2017 
+2018-01-11 21:52:49,883 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Init Action Thu Jan 11 21:52:49 GMT 2018 
+2018-01-11 21:52:52,989 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Database verification Thu Jan 11 21:52:52 GMT 2018 database.ConnectionManager Ligne 105  
+2018-01-11 21:52:53,349 INFO u.Log4jLoggerUtils [JavaFX Application Thread] Login action by date  Thu Jan 11 21:52:53 GMT 2018 
+2018-01-11 21:52:58,075 INFO u.Log4jLoggerUtils [JavaFX Application Thread] User Connected 2ip Thu Jan 11 21:52:58 GMT 2018 

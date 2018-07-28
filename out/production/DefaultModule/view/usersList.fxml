@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.UsersListsController">
+   <children>
+      <TableView fx:id="usersListView" layoutX="113.0" layoutY="121.0" prefHeight="400.0" prefWidth="600.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="nom" prefWidth="75.0" text="Nom" />
+          <TableColumn fx:id="prenom" prefWidth="75.0" text="Prenom" />
+            <TableColumn fx:id="contact" prefWidth="75.0" text="Contact" />
+            <TableColumn fx:id="email" prefWidth="75.0" text="Email" />
+            <TableColumn fx:id="pseudo" prefWidth="75.0" text="Pseudo" />
+            <TableColumn fx:id="id" prefWidth="75.0" text="id" visible="false" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RListeController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TableView fx:id="devisTableView" layoutX="231.0" layoutY="60.0" prefHeight="400.0" prefWidth="640.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn fx:id="numero" prefWidth="75.0" text="numero" />
+                <TableColumn fx:id="devis_name" prefWidth="75.0" text="Devis" />
+                  <!--<TableColumn fx:id="client" prefWidth="75.0" text="Client" />-->
+                  <TableColumn fx:id="created" prefWidth="75.0" text="Date" />
+                  <TableColumn fx:id="type" prefWidth="75.0" text="type" />
+                  <TableColumn fx:id="state" prefWidth="75.0" text="state" visible="false" />
+                  <TableColumn fx:id="id" prefWidth="75.0" text="id" visible="false" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

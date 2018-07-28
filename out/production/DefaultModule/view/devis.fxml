@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DevisController">
+  <children>
+    <!--<MenuBar visible="false" VBox.vgrow="NEVER">-->
+      <!--<menus>-->
+        <!--<Menu mnemonicParsing="false" text="File">-->
+          <!--<items>-->
+            <!--<MenuItem mnemonicParsing="false" text="New" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Open…" />-->
+            <!--<Menu mnemonicParsing="false" text="Open Recent" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Close" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Save" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Save As…" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Revert" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Preferences…" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Quit" />-->
+          <!--</items>-->
+        <!--</Menu>-->
+        <!--<Menu mnemonicParsing="false" text="Edit">-->
+          <!--<items>-->
+            <!--<MenuItem mnemonicParsing="false" text="Undo" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Redo" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Cut" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Copy" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Paste" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Delete" />-->
+            <!--<SeparatorMenuItem mnemonicParsing="false" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Select All" />-->
+            <!--<MenuItem mnemonicParsing="false" text="Unselect All" />-->
+          <!--</items>-->
+        <!--</Menu>-->
+        <!--<Menu mnemonicParsing="false" text="Help">-->
+          <!--<items>-->
+            <!--<MenuItem mnemonicParsing="false" text="About MyHelloApp" />-->
+          <!--</items>-->
+        <!--</Menu>-->
+      <!--</menus>-->
+    <!--</MenuBar>-->
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <SplitPane dividerPositions="0.2413793103448276" layoutX="128.0" layoutY="114.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <Button fx:id="workforce" layoutX="18.0" layoutY="14.0" mnemonicParsing="false" text="Main d'oeuvre" />
+                        <Button fx:id="transport" layoutX="19.0" layoutY="49.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Transport" />
+                        <Button fx:id="printable" layoutX="14.0" layoutY="249.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="120.0" text="Apercu" />
+                        <Button fx:id="save" layoutX="14.0" layoutY="198.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="120.0" text="Sauvegarder" visible="false" />
+                        <Button fx:id="revision" layoutX="14.0" layoutY="309.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="120.0" text="Sauvegarder" />
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <SplitPane dividerPositions="0.49056603773584906" layoutX="101.0" layoutY="142.0" orientation="VERTICAL" prefHeight="373.0" prefWidth="445.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <GridPane layoutX="101.0" layoutY="55.0" prefHeight="179.0" prefWidth="511.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="97.0" minWidth="8.0" prefWidth="8.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" maxWidth="196.0" minWidth="10.0" prefWidth="196.0" />
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label text="Client" GridPane.halignment="CENTER">
+                                             <GridPane.margin>
+                                                <Insets />
+                                             </GridPane.margin></Label>
+                                          <Label text="Date de fin de validité" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                                          <Label text="Delai de livraison" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                                          <Label text="Proforma" GridPane.columnIndex="3" GridPane.halignment="CENTER" />
+                                          <Label text="Date" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                                          <Label prefHeight="17.0" prefWidth="111.0" text="Date de demande" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                                          <Label text="Label" GridPane.columnIndex="4" />
+                                          <Label fx:id="proformaDate" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                          <DatePicker fx:id="dateDeDemande" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                                          <ComboBox fx:id="listClient" prefHeight="25.0" prefWidth="152.0" promptText="Choissir le client" GridPane.columnIndex="1" />
+                                          <DatePicker fx:id="dateFinValidite" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <TextField fx:id="delaiDeLivraison" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <TextField fx:id="avance" prefHeight="25.0" prefWidth="113.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Label text="Avance (%)" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                                          <Label prefHeight="17.0" prefWidth="120.0" text="Liste des produits" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+                                          <ComboBox fx:id="listProduit" editable="true" prefHeight="25.0" prefWidth="187.0" promptText="Liste des produiits" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <Label text="Libellé" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                                          <TextField fx:id="proformaName" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                                          <Label text="Montant" visible="false" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                                          <Label fx:id="montantglobal" text="0" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                                          <TextField fx:id="defaultclientname" prefHeight="25.0" prefWidth="110.0" GridPane.columnIndex="1" />
+                                          <Label fx:id="date_fin1" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <Label fx:id="date_demande2" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                                          <TextField fx:id="proformaNumero" GridPane.columnIndex="4" />
+                                          <Label text="A l'attention" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                                          <TextField fx:id="partnersref" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <Separator layoutX="-6.0" layoutY="30.0" prefHeight="1.0" prefWidth="453.0" visible="false" AnchorPane.leftAnchor="-6.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="30.0" />
+                                    <HBox layoutX="-1.0" layoutY="3.0" prefHeight="25.0" prefWidth="511.0" />
+                                    <TableView fx:id="productsTableView" editable="true" layoutX="91.0" layoutY="14.0" prefHeight="182.0" prefWidth="511.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <columns>
+                                        <TableColumn fx:id="ref" prefWidth="75.0" text="Reference" />
+                                        <TableColumn fx:id="desig" prefWidth="75.0" text="Designation" />
+                                          <TableColumn fx:id="qte" prefWidth="75.0" text="Quantite" />
+                                          <TableColumn fx:id="prix" prefWidth="75.0" text="P.U" />
+                                          <TableColumn fx:id="marge" prefWidth="75.0" text="Marge" />
+                                          <TableColumn fx:id="remise" prefWidth="75.0" text="Remise" />
+                                          <TableColumn fx:id="montantHt" prefWidth="75.0" text="Montant HT" />
+                                      </columns>
+                                       <columnResizePolicy>
+                                          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                       </columnResizePolicy>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

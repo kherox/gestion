@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="managerapplication" default="all">
+  
+  
+  <property file="gestion2ip.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="700m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/*.rbc/**"/>
+    <exclude name="**/*.yarb/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/vssver.scc/**"/>
+    <exclude name="**/vssver2.scc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.war"/>
+    <include name="*.swc"/>
+    <include name="*.zip"/>
+    <include name="*.ear"/>
+    <include name="*.egg"/>
+    <include name="*.ane"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+    <exclude name="**/?*.aj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.8" value="${jdk.home.1.8}/bin"/>
+  <path id="jdk.classpath.1.8">
+    <fileset dir="${jdk.home.1.8}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/ext/access-bridge-64.jar"/>
+      <include name="jre/lib/ext/cldrdata.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/jfxrt.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/nashorn.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunmscapi.jar"/>
+      <include name="jre/lib/ext/sunpkcs11.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxswt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.8}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.8}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.8"/>
+  
+  
+  <!-- Project Libraries -->
+  
+  <path id="library.maven:_com.googlecode.json-simple:json-simple:1.1.1.classpath">
+    <pathelement location="${path.variable.maven_repository}/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar"/>
+  </path>
+  
+  <path id="library.maven:_com.rethinkdb:rethinkdb-driver:2.3.3.classpath">
+    <pathelement location="${path.variable.maven_repository}/com/rethinkdb/rethinkdb-driver/2.3.3/rethinkdb-driver-2.3.3.jar"/>
+  </path>
+
+  <!--com\itextpdf\kernel\7.0.5-->
+
+  <path id="library.maven:_com.itextpdf:kernel:7.0.5.classpath">
+    <pathelement location="${path.variable.maven_repository}/com/itextpdf/kernel/7.0.5/kernel-7.0.5.jar"/>
+  </path>
+
+  <path id="library.maven:_com.itextpdf:io:7.0.5.classpath">
+    <pathelement location="${path.variable.maven_repository}/com/itextpdf/io/7.0.5/io-7.0.5.jar"/>
+  </path>
+
+  <path id="library.maven:_com.itextpdf:layout:7.0.5.classpath">
+    <pathelement location="${path.variable.maven_repository}/com/itextpdf/layout/7.0.5/layout-7.0.5.jar"/>
+  </path>
+
+
+  
+  <path id="library.maven:_commons-codec:commons-codec:1.10.classpath">
+    <pathelement location="${path.variable.maven_repository}/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+  </path>
+  
+  <path id="library.maven:_commons-io:commons-io:1.3.1.classpath">
+    <pathelement location="${path.variable.maven_repository}/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar"/>
+  </path>
+  
+  <path id="library.maven:_commons-logging:commons-logging:1.2.classpath">
+    <pathelement location="${path.variable.maven_repository}/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  </path>
+  
+  <path id="library.maven:_org.apache.pdfbox:fontbox:2.0.2.classpath">
+    <pathelement location="${path.variable.maven_repository}/org/apache/pdfbox/fontbox/2.0.2/fontbox-2.0.2.jar"/>
+  </path>
+  
+  <path id="library.maven:_org.apache.poi:poi-ooxml-schemas:3.14.classpath">
+    <pathelement location="${path.variable.maven_repository}/org/apache/poi/poi-ooxml-schemas/3.14/poi-ooxml-schemas-3.14.jar"/>
+  </path>
+  
+  <path id="library.maven:_org.apache.poi:poi-ooxml:3.14.classpath">
+    <pathelement location="${path.variable.maven_repository}/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14.jar"/>
+  </path>
+  
+  <path id="library.maven:_org.apache.poi:poi:3.14.classpath">
+    <pathelement location="${path.variable.maven_repository}/org/apache/poi/poi/3.14/poi-3.14.jar"/>
+  </path>
+  
+  <path id="library.maven:_org.apache.xmlbeans:xmlbeans:2.6.0.classpath">
+    <pathelement location="${path.variable.maven_repository}/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar"/>
+  </path>
+  
+  <path id="library.maven:_org.apache.xmlgraphics:fop:2.1.classpath">
+    <pathelement location="${path.variable.maven_repository}/org/apache/xmlgraphics/fop/2.1/fop-2.1.jar"/>
+  </path>
+  
+  <path id="library.maven:_org.mongodb:mongo-java-driver:3.2.2.classpath">
+    <pathelement location="${path.variable.maven_repository}/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar"/>
+  </path>
+  
+  <path id="library.maven:_org.slf4j:slf4j-api:1.7.20.classpath">
+    <pathelement location="${path.variable.maven_repository}/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar"/>
+  </path>
+  <!-- Register Custom Compiler Taskdefs -->
+  <property name="javac2.home" value="${idea.home}/lib"/>
+  <path id="javac2.classpath">
+    <pathelement location="${javac2.home}/javac2.jar"/>
+    <pathelement location="${javac2.home}/jdom.jar"/>
+    <pathelement location="${javac2.home}/asm-all.jar"/>
+    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
+  </path>
+  <target name="register.custom.compilers">
+    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
+    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
+  </target>
+  
+  <!-- Modules -->
+  
+  <import file="${basedir}/DefaultModule/module_defaultmodule.xml"/>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.defaultmodule" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.defaultmodule" description="build all modules"/>
+  
+  <target name="init.artifacts">
+    <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
+    <property name="artifact.output.managerapplication:jar" value="${basedir}/out/artifacts/ManagerApplication_jar"/>
+    <mkdir dir="${artifacts.temp.dir}"/>
+    <property name="temp.jar.path.ManagerApplication.jar" value="${artifacts.temp.dir}/ManagerApplication.jar"/>
+  </target>
+  
+  <target name="artifact.managerapplication:jar" depends="init.artifacts, compile.module.defaultmodule" description="Build &#39;ManagerApplication:jar&#39; artifact">
+    <property name="artifact.temp.output.managerapplication:jar" value="${artifacts.temp.dir}/ManagerApplication_jar"/>
+    <mkdir dir="${artifact.temp.output.managerapplication:jar}"/>
+    <jar destfile="${temp.jar.path.ManagerApplication.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset dir="${defaultmodule.output.dir}"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-suggest/5.5.2/lucene-suggest-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-awt-util/1.8/batik-awt-util-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.1/jackson-dataformat-cbor-2.8.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-memory/5.5.2/lucene-memory-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-script/1.8/batik-script-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/xmlgraphics-commons/2.1/xmlgraphics-commons-2.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-core/5.5.2/lucene-core-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-util/1.8/batik-util-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-queryparser/5.5.2/lucene-queryparser-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-dom/1.8/batik-dom-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-svg-dom/1.8/batik-svg-dom-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/avalon/framework/avalon-framework-api/4.3.1/avalon-framework-api-4.3.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-gvt/1.8/batik-gvt-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-backward-codecs/5.5.2/lucene-backward-codecs-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-spatial/5.5.2/lucene-spatial-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/pdfbox/fontbox/2.0.2/fontbox-2.0.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/tdunning/t-digest/3.0/t-digest-3.0.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-highlighter/5.5.2/lucene-highlighter-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/elasticsearch/elasticsearch/2.4.1/elasticsearch-2.4.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-ext/1.8/batik-ext-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-svggen/1.8/batik-svggen-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-anim/1.8/batik-anim-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/elasticsearch/securesm/1.0/securesm-1.0.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/junit/junit/4.10/junit-4.10.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.1/jackson-dataformat-yaml-2.8.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-transcoder/1.8/batik-transcoder-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/github/virtuald/curvesapi/1.03/curvesapi-1.03.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-misc/5.5.2/lucene-misc-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.1/jackson-dataformat-smile-2.8.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/rethinkdb/rethinkdb-driver/2.3.3/rethinkdb-driver-2.3.3.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/fop/2.1/fop-2.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/spatial4j/spatial4j/0.5/spatial4j-0.5.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-analyzers-common/5.5.2/lucene-analyzers-common-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/google/guava/guava/18.0/guava-18.0.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-parser/1.8/batik-parser-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-xml/1.8/batik-xml-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-extension/1.8/batik-extension-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-css/1.8/batik-css-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-join/5.5.2/lucene-join-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/xmlgraphics/batik-bridge/1.8/batik-bridge-1.8.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/poi/poi/3.14/poi-3.14.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/pdfbox/pdfbox/2.0.2/pdfbox-2.0.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/xalan/xalan/2.7.0/xalan-2.7.0.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-spatial3d/5.5.2/lucene-spatial3d-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-grouping/5.5.2/lucene-grouping-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/poi/poi-ooxml-schemas/3.14/poi-ooxml-schemas-3.14.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/avalon/framework/avalon-framework-impl/4.3.1/avalon-framework-impl-4.3.1.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-sandbox/5.5.2/lucene-sandbox-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/org/apache/lucene/lucene-queries/5.5.2/lucene-queries-5.5.2.jar"/>
+      <zipfileset src="${path.variable.maven_repository}/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar"/>
+      <zipfileset dir="${basedir}/ressources"/>
+    </jar>
+    <copy file="${temp.jar.path.ManagerApplication.jar}" tofile="${artifact.temp.output.managerapplication:jar}/ManagerApplication.jar"/>
+  </target>
+  
+  <target name="build.all.artifacts" depends="artifact.managerapplication:jar" description="Build all artifacts">
+    <mkdir dir="${artifact.output.managerapplication:jar}"/>
+    <copy todir="${artifact.output.managerapplication:jar}">
+      <fileset dir="${artifact.temp.output.managerapplication:jar}"/>
+    </copy>
+    
+    <!-- Delete temporary files -->
+    <delete dir="${artifacts.temp.dir}"/>
+  </target>
+  
+  <target name="all" depends="build.modules, build.all.artifacts" description="build all"/>
+</project>

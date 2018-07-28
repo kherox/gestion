@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProgessController">
+   <children>
+      <ProgressIndicator layoutX="188.0" layoutY="139.0" prefHeight="131.0" prefWidth="186.0" />
+      <Label layoutX="223.0" layoutY="68.0" prefHeight="17.0" prefWidth="186.0" text="Chargement" textFill="#066804">
+         <font>
+            <Font name="Andalus" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

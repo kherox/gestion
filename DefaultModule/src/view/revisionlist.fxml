@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RevisionListController">
+   <children>
+      <Label layoutX="22.0" layoutY="89.0" text="Projet" />
+      <Label layoutX="26.0" layoutY="164.0" text="Client" />
+      <Label layoutX="26.0" layoutY="229.0" text="Contact" />
+      <Label layoutX="22.0" layoutY="308.0" text="Ville" />
+      <Label fx:id="projectname" layoutX="203.0" layoutY="89.0" text="Label" />
+      <Label fx:id="projectclient" layoutX="200.0" layoutY="164.0" text="Label" />
+      <Label fx:id="projectclientcontact" layoutX="203.0" layoutY="229.0" text="Label" />
+      <Label fx:id="projectville" layoutX="204.0" layoutY="308.0" text="Label" />
+      <Button fx:id="validate" layoutX="385.0" layoutY="188.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Valider" />
+   </children>
+</AnchorPane>
