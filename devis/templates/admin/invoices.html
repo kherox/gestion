@@ -1,0 +1,15 @@
+
+{% extends "admin/base_site.html" %}
+
+{% block title %} Facture {% endblock %}
+
+{% block sidebar %}{% endblock %}
+
+{% block content %}
+
+{% include './template.html' with  besoins=besoins devis=devis outils=outils project=project mainoeuvre=mainoeuvre total=total %}
+
+   
+{% endblock %}
+
+
